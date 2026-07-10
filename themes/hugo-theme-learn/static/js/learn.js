@@ -497,14 +497,59 @@ jQuery.fn.highlight = function (words, options) {
 (function () {
   var pagesBase = "/AWS_WORKFLOG-";
 
+  function addMissingImageStyles() {
+    if (document.getElementById("missing-image-styles")) {
+      return;
+    }
+
+    var style = document.createElement("style");
+    style.id = "missing-image-styles";
+    style.textContent = ".missing-image-note{display:block;box-sizing:border-box;width:100%;max-width:720px;margin:12px 0;padding:18px 20px;border:1px dashed #d6a24a;background:#fff8ed;color:#4b5563;font-size:16px;line-height:1.45;text-align:left}.missing-image-note strong{display:block;margin-bottom:4px;color:#9a5b00}.missing-image-note span{display:block;word-break:break-word}";
+    document.head.appendChild(style);
+  }
+
+  function showMissingImage(img) {
+    if (img.getAttribute("data-missing-image") === "true") {
+      return;
+    }
+
+    addMissingImageStyles();
+    img.setAttribute("data-missing-image", "true");
+
+    var note = document.createElement("span");
+    var label = document.createElement("strong");
+    var path = document.createElement("span");
+
+    note.className = "missing-image-note";
+    label.textContent = "Image not found";
+    path.textContent = img.getAttribute("alt") || img.getAttribute("src") || "Missing image file";
+
+    note.appendChild(label);
+    note.appendChild(path);
+
+    if (img.parentNode) {
+      img.parentNode.replaceChild(note, img);
+    }
+  }
+
   function fixImagePaths() {
     if (window.location.pathname.indexOf(pagesBase + "/") !== 0) {
       return;
     }
 
-    var images = document.querySelectorAll('img[src^="/images/"]');
+    var images = document.querySelectorAll("img");
     for (var i = 0; i < images.length; i++) {
-      images[i].setAttribute("src", pagesBase + images[i].getAttribute("src"));
+      if (images[i].getAttribute("src").indexOf("/images/") === 0) {
+        images[i].setAttribute("src", pagesBase + images[i].getAttribute("src"));
+      }
+
+      images[i].addEventListener("error", function () {
+        showMissingImage(this);
+      });
+
+      if (images[i].complete && images[i].naturalWidth === 0) {
+        showMissingImage(images[i]);
+      }
     }
   }
 
