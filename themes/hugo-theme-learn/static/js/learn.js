@@ -493,3 +493,24 @@ jQuery.fn.highlight = function (words, options) {
     jQuery.highlight(this, re, settings.element, settings.className);
   });
 };
+
+(function () {
+  var pagesBase = "/AWS_WORKFLOG-";
+
+  function fixImagePaths() {
+    if (window.location.pathname.indexOf(pagesBase + "/") !== 0) {
+      return;
+    }
+
+    var images = document.querySelectorAll('img[src^="/images/"]');
+    for (var i = 0; i < images.length; i++) {
+      images[i].setAttribute("src", pagesBase + images[i].getAttribute("src"));
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", fixImagePaths);
+  } else {
+    fixImagePaths();
+  }
+})();
