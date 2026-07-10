@@ -27,6 +27,14 @@ jobs:
       - name: Build website
         run: hugo --minify --baseURL "https://pepsi1231173.github.io/AWS_WORKFLOG-/"
 
+      - name: Fix absolute image paths for GitHub Pages
+        run: |
+          find public -type f \( -name "*.html" -o -name "*.xml" -o -name "*.json" \) -print0 \
+            | xargs -0 sed -i \
+              -e 's#="/images/#="/AWS_WORKFLOG-/images/#g' \
+              -e "s#='/images/#='/AWS_WORKFLOG-/images/#g" \
+              -e 's#=/images/#=/AWS_WORKFLOG-/images/#g'
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
