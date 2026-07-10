@@ -1,4 +1,4 @@
-baseURL = "https://pepsi1231173.github.io/AWS_WORKFLOG-/"
+baseURL = "/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"

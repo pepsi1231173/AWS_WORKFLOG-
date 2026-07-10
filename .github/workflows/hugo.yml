@@ -25,7 +25,7 @@ jobs:
           extended: true
 
       - name: Build website
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://pepsi1231173.github.io/AWS_WORKFLOG-/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
