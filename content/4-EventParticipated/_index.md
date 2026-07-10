@@ -6,39 +6,53 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+# Events Participated
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+During my internship, I joined several AWS Study Group and FCAJ community events. These sessions helped me connect classroom learning with real industry practices: AI-assisted development, cloud delivery, security, DevOps automation, teamwork, and secure enterprise AI.
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+Each event gave me a different kind of value. Some sessions focused on mindset and learning habits, some went deep into technical architecture, and others helped me understand how engineers communicate ideas, build products, and grow inside the cloud community.
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+## Event List
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+### Event 1: AWS Study Group Workshop - AI in Development
 
+&emsp;**Date:** May 9, 2026  
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
 &emsp;**Role:** Attendee  
+
+A workshop about learning habits, prompt engineering, job readiness, and the role of AI across the software development lifecycle.
+
+[Open Event 1](4.1-Event1/)
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### Event 2: FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
+&emsp;**Date:** May 23, 2026  
 &emsp;**Role:** Attendee  
+
+A community sharing day with talks about second-brain systems, Amazon Q, CloudFront, hackathon product building, LLM fundamentals, and enterprise-grade multi-agent systems.
+
+[Open Event 2](4.2-Event2/)
+
+---
+
+### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
+
+&emsp;**Date:** June 2026  
+&emsp;**Role:** Attendee  
+
+A community sharing day about Docker, AWS WAF with machine learning, AWS WebSockets for multiplayer systems, teamwork, Amazon Neptune for GraphRAG, and the career path toward Cloud/DevOps.
+
+[Open Event 3](4.3-Event3/)
+
+---
+
+### Event 4: FCAJ Community Day - AI Agents and DevOps
+
+&emsp;**Date:** June 6, 2026  
+&emsp;**Role:** Attendee  
+
+A technical community day focused on AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture, and practical career stories from cloud practitioners.
+
+[Open Event 4](4.4-Event4/)

@@ -1,0 +1,20 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import { connect, listTabs, setupPage, click, insertText, sleep, screenshot, text } from "./cdp-aws-helper.mjs";
+
+const index = Number(process.argv[2] || 0);
+const file = process.argv[3];
+if (!file) throw new Error("Usage: node cdp-paste-file-tab-index.mjs <index> <file>");
+const payload = await readFile(file, "utf8");
+const tabs = (await listTabs()).filter((t) => (t.url || "").includes(".console.aws.amazon.com/cloudshell/home"));
+const info = tabs[index] || tabs[0];
+const client = await connect(info.webSocketDebuggerUrl);
+await setupPage(client, 1280, 720);
+await click(client, 58, 665);
+await sleep(500);
+await insertText(client, payload);
+await sleep(5000);
+const out = path.resolve(process.argv[4] || `aws-workshop/screenshots-000006-rerun-wide/tab-${index}-paste.png`);
+await screenshot(client, out);
+console.log((await text(client)).slice(-1800));
+client.close();

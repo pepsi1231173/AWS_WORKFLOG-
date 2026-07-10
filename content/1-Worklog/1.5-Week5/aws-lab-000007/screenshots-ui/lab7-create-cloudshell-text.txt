@@ -1,0 +1,58 @@
+Skip to Main Content
+[Alt+S]
+Asia Pacific (Singapore)
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+CloudShell
+Actions
+ap-southeast-1
+ap-southeast-1
+ap-southeast-1
+ap-southeast-1
+CloudShell terminal input
+> }                                                                                                                                                                                    
+>                                                                                                                                                                                      
+> create_budget "${PREFIX}-TemplateCost" /tmp/lab7-template-cost.json                                                                                                                  
+> create_budget "${PREFIX}-CostMonthly" /tmp/lab7-cost-monthly.json                                                                                                                    
+> create_budget "${PREFIX}-UsageEC2Hours" /tmp/lab7-usage-ec2.json                                                                                                                     
+> create_budget "${PREFIX}-RIUtilization" /tmp/lab7-ri.json                                                                                                                            
+> create_budget "${PREFIX}-SPUtilization" /tmp/lab7-sp.json                                                                                                                            
+>                                                                                                                                                                                      
+> echo "=== LAB7 CREATED BUDGETS ==="                                                                                                                                                  
+> aws budgets describe-budgets --account-id "${ACCOUNT_ID}" --region "${REGION}" --query "Budgets[?contains(BudgetName, '${PREFIX}')].[BudgetName,BudgetType,BudgetLimit.Amount,BudgetL
+imit.Unit,TimeUnit]" --output table                                                                                                                                                    
+> echo "LAB7_CREATE_DONE ${PREFIX}"                                                                                                                                                    
+>                                                                                                                                                                                      
+> EOF                                                                                                                                                                                  
+~ $ chmod +x lab7-budgets.sh                                                                                                                                                           
+~ $ ./lab7-budgets.sh 2>&1 | tee lab7-budgets-create.log                                                                                                                               
+=== LAB7 CREATE AWS BUDGETS account=827257544048 region=us-east-1 prefix=LAB7-0704 ===                                                                                                 
+--- Creating LAB7-0704-TemplateCost ---                                                                                                                                                
+CREATED LAB7-0704-TemplateCost                                                                                                                                                         
+--- Creating LAB7-0704-CostMonthly ---                                                                                                                                                 
+CREATED LAB7-0704-CostMonthly                                                                                                                                                          
+--- Creating LAB7-0704-UsageEC2Hours ---                                                                                                                                               
+CREATED LAB7-0704-UsageEC2Hours                                                                                                                                                        
+--- Creating LAB7-0704-RIUtilization ---                                                                                                                                               
+CREATED LAB7-0704-RIUtilization                                                                                                                                                        
+--- Creating LAB7-0704-SPUtilization ---                                                                                                                                               
+CREATED LAB7-0704-SPUtilization                                                                                                                                                        
+=== LAB7 CREATED BUDGETS ===                                                                                                                                                           
+--------------------------------------------------------------------------------------------                                                                                           
+|                                      DescribeBudgets                                     |                                                                                           
++--------------------------+-----------------------------+--------+-------------+----------+                                                                                           
+|  LAB7-0704-CostMonthly   |  COST                       |  10.0  |  USD        |  MONTHLY |                                                                                           
+|  LAB7-0704-RIUtilization |  RI_UTILIZATION             |  100.0 |  PERCENTAGE |  MONTHLY |                                                                                           
+|  LAB7-0704-SPUtilization |  SAVINGS_PLANS_UTILIZATION  |  100.0 |  PERCENTAGE |  MONTHLY |                                                                                           
+|  LAB7-0704-TemplateCost  |  COST                       |  5.0   |  USD        |  MONTHLY |                                                                                           
+|  LAB7-0704-UsageEC2Hours |  USAGE                      |  10.0  |  Hrs        |  MONTHLY |                                                                                           
++--------------------------+-----------------------------+--------+-------------+----------+                                                                                           
+LAB7_CREATE_DONE LAB7-0704                                                                                                                                                             
+~ $                                                                                                                                                                                    
+ 
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences

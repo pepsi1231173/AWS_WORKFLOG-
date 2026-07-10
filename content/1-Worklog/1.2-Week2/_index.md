@@ -8,36 +8,36 @@ pre: '<b>1.2.</b>'
 
 ## 🎯 Week 2 Objectives
 
-- Get familiar with Unity Engine and basic game development workflow
-- Understand AWS IAM and implement secure permission management
-- Prepare foundation for deploying game-related services on AWS
+- Become familiar with the Unity Engine environment and the basic game development process.
+- Learn the fundamentals of AWS Identity and Access Management (IAM).
+- Build a solid foundation for deploying Unity-related services on AWS in future weeks.
 
 ---
 
 ## 📅 Weekly Plan & Tracking
 
-| Day | Date       | Tasks                                                                                                             | Status      | Notes |
-| --- | ---------- | ----------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-| Mon | 27/04/2026 | - Install Unity Hub & Unity Editor <br> - Explore Unity interface (Scene, Game, Inspector, Hierarchy)             | DONE        |       |
-| Tue | 28/04/2026 | - Learn basic Unity concepts: <br> + GameObject <br> + Component <br> + Transform <br> - Create simple scene      | DONE        |       |
-| Wed | 29/04/2026 | - Learn scripting with C# in Unity <br> - Create Player movement script <br> - Understand MonoBehaviour lifecycle | DONE        |       |
-| Thu | 30/04/2026 | - Introduction to AWS IAM <br> - Understand Users, Groups, Roles, Policies                                        | DONE        |       |
-| Fri | 01/05/2026 | - Practice: Create IAM Admin Group <br> - Assign permissions <br> - Add user to group                             | in progress |       |
+| Day | Date       | Tasks                                                                                                                                              | Status | Notes |
+| --- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----- |
+| Mon | 27/04/2026 | - Install Unity Hub and Unity Editor.<br>- Explore the Unity workspace, including Scene, Game, Hierarchy, and Inspector windows.                   | Done   |       |
+| Tue | 28/04/2026 | - Study Unity core concepts:<br>&nbsp;&nbsp; + GameObject<br>&nbsp;&nbsp;+ Component<br>&nbsp;&nbsp;+ Transform<br>- Build a basic practice scene. | Done   |       |
+| Wed | 29/04/2026 | - Learn C# scripting in Unity.<br>- Implement a simple player movement script.<br>- Understand the MonoBehaviour execution lifecycle.              | Done   |       |
+| Thu | 30/04/2026 | - Explore AWS IAM fundamentals.<br>- Learn about Users, User Groups, Roles, and Policies.                                                          | Done   |       |
+| Fri | 01/05/2026 | - Create an IAM administrator group.<br>- Configure permissions.<br>- Add a user to the group for testing.                                         | Done   |       |
 
 ---
 
 ## 🔐 AWS IAM Implementation (Detailed)
 
-### Step 1: Create IAM Group
+### Step 1: Create a User Group - Open the AWS Management Console.
 
-- Go to AWS Console → IAM → **User Groups**
-- Click **Create group**
-- Group name: `AdminGroup`
+- Navigate to **IAM → User Groups**.
+- Select **Create group**.
+- Create a group named `AdminGroup`.
 
 ### Step 2: Attach Permissions
 
-- Attach policy:
-  - `AdministratorAccess` (for full access in development phase)
+- Attach the following managed policy:
+- `AdministratorAccess`> **Note:** This permission is suitable for learning and development. In production environments, permissions should always follow the **Principle of Least Privilege**.
 
 👉 Note: In production, should follow **Principle of Least Privilege**
 
@@ -45,21 +45,25 @@ pre: '<b>1.2.</b>'
 
 ### Step 3: Create IAM User
 
-- Go to IAM → Users → Create user
-- Enable:
-  - AWS Management Console access
-  - Programmatic access (for CLI)
+- Go to **IAM → Users**.
+- Choose **Create user**.
+- Enable the following access methods:
+
+* AWS Management Console access.
+* Programmatic access for AWS CLI.
 
 ---
 
 ### Step 4: Add User to Group
 
-- Assign user to `AdminGroup`
-- Verify permissions inherited from group
+- Assign the newly created user to `AdminGroup`.
+- Confirm that the user's permissions are inherited from the group.
 
 ---
 
 ### Step 5: Configure AWS CLI
+
+Run the following command and enter the required AWS credentials:
 
 ```bash
 aws configure

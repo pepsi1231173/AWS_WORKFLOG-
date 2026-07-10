@@ -6,28 +6,35 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+# Thiết lập minh chứng AWS cho hệ thống game online RoughLife
 
 #### Tổng quan
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+Trong workshop này, nhóm RoughLife tiến hành thiết lập một số dịch vụ AWS để minh chứng cho kiến trúc hệ thống game online multiplayer. Mục tiêu của phần này là chứng minh cách hệ thống có thể phân phối bản build client, bảo vệ traffic HTTP/HTTPS, quản lý tài khoản người chơi và lưu trữ dữ liệu phòng chơi, dữ liệu người chơi cũng như kết quả trận đấu.
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+Các dịch vụ AWS được sử dụng trong phần minh chứng gồm:
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
+- **AWS Budgets** để theo dõi chi phí và cảnh báo khi vượt ngưỡng.
+- **Amazon S3** để lưu trữ client build, file version và patch manifest.
+- **Amazon CloudFront** để phân phối client build và patch thông qua HTTPS.
+- **AWS WAF** để bảo vệ CloudFront trước các request web không hợp lệ.
+- **Amazon Cognito** để chuẩn bị hệ thống xác thực người chơi.
+- **Amazon DynamoDB** để lưu dữ liệu room/session, player save và match result.
 
 #### Nội dung
 
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+1. [Tổng quan Workshop](5.1-workshop-overview/)
+2. [AWS Budget](5.2-budget/)
+3. [S3 Release Bucket](5.3-s3-release-bucket/)
+4. [Cloudfront Distribution](5.4-cloudfront-distribution/)
+5. [Waf-Webacl](5.5-waf-webacl/)
+6. [Cognito userpool](5.6-cognito-userpool/)
+7. [Tạo DynamoDB Tables](5.7-dynamodb-tables/)
+8. [Tạo Lambda Room API](5.8-lambda-room-api/)
+9. [Tạo API Gateway HTTP API](5.9-api-gateway/)
+10. [Thiết lập Amazon GameLift Build và Fleet](5.10-gamelift-build-fleet/)
+11. [Thiết lập GameLift Alias và Game Session Queue](5.11-gamelift-queue-alias/)
+12. [Cấu hình CloudWatch Logs và Alarm](5.12-cloudWatch-logs,monitor,alarm/)
+13. [Thiết lập SNS Admin Alert](5.13-sns-admin-alert/)
+14. [Thiết lập AWS X-Ray Trace](5.14-xray-trace/)
+15. [Cleanup AWS Resources](5.15-cleanup/)

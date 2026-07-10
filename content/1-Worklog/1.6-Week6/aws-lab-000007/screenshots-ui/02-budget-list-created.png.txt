@@ -1,0 +1,216 @@
+Budgets list with all LAB7 budgets
+https://us-east-1.console.aws.amazon.com/costmanagement/home#/budgets
+
+Skip to Main Content
+[Alt+S]
+Global
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+Billing and Cost Management
+Budgets
+Overview
+Billing and Cost Management
+Budgets
+Overview
+Billing and Cost Management
+Billing View
+New
+Home
+Getting Started
+Dashboards
+New
+FinOps Agent
+Preview
+Billing and Payments
+Bills
+Payments
+Credits
+Purchase Orders
+Cost and Usage Analysis
+Cost Explorer
+Cost Explorer Saved Reports
+Cost Anomaly Detection
+Free Tier
+Data Exports
+Carbon emissions
+Cost Organization
+Cost Categories
+Cost Allocation Tags
+Billing Conductor
+Budgets and Planning
+Budgets
+New
+Budgets Reports
+Pricing Calculator
+New
+Savings and Commitments
+Cost Optimization Hub
+New
+Savings Plans
+Overview
+Inventory
+Recommendations
+Purchase Analyzer
+New
+Utilization Report
+Coverage Report
+Purchase Savings Plans
+Cart
+0
+Reservations
+Overview
+Recommendations
+New
+Utilization Report
+Coverage Report
+Preferences and Settings
+Payment Preferences
+Billing Preferences
+Cost Management Preferences
+New
+Tax Settings
+Invoice Configuration
+Billing Transfer
+New
+Legacy Pages
+Budgets (5)
+ 
+Info
+Download CSV
+Actions
+Create budget
+Type - Show all budgets
+1
+	
+Name
+	
+Thresholds
+	
+Health status
+	
+Billing View
+	
+Budget
+	
+Amount used
+	
+Forecasted amount
+	
+Current vs. budgeted
+	
+Forecasted vs. budgeted
+
+
+	
+LAB7-0704-CostMonthly
+	
+-
+	
+Healthy
+	
+Primary View
+	
+$10.00
+	
+$0.00
+	
+$43.10
+	
+0.00%
+	
+431.00%
+
+
+	
+LAB7-0704-RIUtilization
+	
+-
+	
+Healthy
+	
+Primary View
+	
+100.00%
+	
+-
+	
+-
+	
+0.00%
+	
+-
+
+
+	
+LAB7-0704-SPUtilization
+	
+-
+	
+Healthy
+	
+Primary View
+	
+100.00%
+	
+-
+	
+-
+	
+0.00%
+	
+-
+
+
+	
+LAB7-0704-TemplateCost
+	
+-
+	
+Healthy
+	
+Primary View
+	
+$5.00
+	
+$0.00
+	
+$43.10
+	
+0.00%
+	
+862.00%
+
+
+	
+LAB7-0704-UsageEC2Hours
+	
+-
+	
+Healthy
+	
+Primary View
+	
+10 Hrs
+	
+291,599 Hrs
+	
+3.043,874 Hrs
+	
+2915.99%
+	
+30438.74%
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences
+0%
+431.00000000000006%
+0%
+0%
+0%
+862.0000000000001%
+2915.9900000000002%
+30438.739999999994%

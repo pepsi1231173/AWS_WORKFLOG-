@@ -1,125 +1,95 @@
 ---
-title: "Event 1"
+title: "AWS Study Group Workshop - AI in Development"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# AWS Study Group Workshop - AI in Development
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## Thông tin sự kiện
 
-### Mục Đích Của Sự Kiện
+**Tên sự kiện:** AWS Study Group Workshop - AI in Development Lifecycle  
+**Thời gian:** 09/05/2026  
+**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+## Tổng quan
 
-### Danh Sách Diễn Giả
+Workshop giúp em hiểu rõ hơn cách AI đang thay đổi quá trình học tập, làm việc và phát triển phần mềm. Nội dung không chỉ dừng ở việc giới thiệu công cụ, mà còn kết nối AI-assisted development với thói quen học tập, chất lượng prompt, sự chuẩn bị nghề nghiệp và cách xây dựng sản phẩm hiện đại.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+Điểm em thấy hữu ích nhất là sự cân bằng giữa tư duy và thực hành. Em nhận ra rằng dùng AI hiệu quả không phải là để công cụ làm thay mọi thứ, mà là biết đặt câu hỏi tốt hơn, cung cấp ngữ cảnh rõ hơn, kiểm tra kết quả cẩn thận hơn và biến AI thành một phần hợp lý trong workflow phát triển phần mềm.
 
-### Nội Dung Nổi Bật
+## Mục tiêu sự kiện
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+- Hiểu cách AI hỗ trợ vòng đời phát triển phần mềm, từ lên ý tưởng, viết code, tạo tài liệu đến cải tiến sản phẩm.
+- Học cách tiếp cận prompt engineering và cải thiện chất lượng đầu ra của LLM.
+- Xây dựng thói quen học tập bền vững để quá trình phát triển kỹ năng không bị rời rạc.
+- Nhìn lại khoảng cách giữa việc học công nghệ và sự sẵn sàng cho công việc thực tế.
+- Hiểu cách các nhóm hiện đại xây dựng, đo lường, phân tích và triển khai sản phẩm theo hướng lặp.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+## Diễn giả và nội dung chia sẻ
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+- **Anh Long:** Chia sẻ cách làm cho việc học trở nên hấp dẫn và duy trì đều đặn hơn, đặc biệt với người học dễ bị phân tán bởi mạng xã hội.
+- **Anh Thịnh:** Giới thiệu automated prompt engineering và cách prompt tốt hơn có thể cải thiện chất lượng nội dung do AI tạo ra.
+- **Anh Khang:** Chia sẻ về sự sẵn sàng đi làm, lý do nhiều bạn học mãi nhưng chưa bắt đầu công việc thực tế, và những điều cần chuẩn bị trước khi ứng tuyển.
+- **Diễn giả Software Developer:** Chia sẻ tư duy BMAD gồm Build, Measure, Analyze và Deploy như một vòng lặp thực tế trong phát triển phần mềm.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+## Những điều học được
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+### Thói quen học tập và động lực
 
-#### Domain-Driven Design (DDD)
+Em học được rằng phát triển kỹ thuật phụ thuộc rất nhiều vào sự đều đặn. Một hệ thống học tập tốt nên đủ nhỏ để duy trì hằng ngày, nhưng cũng đủ rõ để nhìn thấy tiến độ theo thời gian. Điều này giúp em nhìn lại cách mình sắp xếp việc học AWS, làm project và ghi chép.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+### AI trong phát triển phần mềm
 
-#### Event-Driven Architecture
+AI có thể hỗ trợ nhiều hoạt động phát triển, nhưng chất lượng kết quả phụ thuộc vào chất lượng ngữ cảnh. Một prompt hữu ích nên nêu rõ mục tiêu, giới hạn, tình huống hiện tại, đầu ra mong muốn và tiêu chí đánh giá. Điều này đặc biệt quan trọng khi dùng AI để viết code, giải thích kiến trúc hoặc soạn tài liệu kỹ thuật.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+### Sự sẵn sàng nghề nghiệp
 
-#### Compute Evolution
+Phần chia sẻ về career readiness nhắc em rằng kiến thức kỹ thuật không phải là yếu tố duy nhất. Giao tiếp, tinh thần trách nhiệm, teamwork và khả năng giải thích quyết định cũng rất quan trọng khi chuyển từ học tập sang môi trường làm việc thật.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+### Quy trình phát triển hiện đại
 
-#### Amazon Q Developer
+Vòng lặp BMAD giúp em nhìn phát triển sản phẩm như một quá trình cải tiến liên tục. Thay vì cố gắng hoàn hảo ngay từ đầu, nên xây dựng phiên bản nhỏ, đo kết quả, phân tích phản hồi và cải thiện từng bước.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+## Cảm nhận cá nhân
 
-### Những Gì Học Được
+Sự kiện này có giá trị vì liên quan trực tiếp đến hành trình thực tập của em. Em đang học AWS, viết báo cáo, xây dựng workshop và sử dụng AI tools cùng lúc, nên các phần chia sẻ giúp em tổ chức những việc đó có mục tiêu hơn.
 
-#### Tư Duy Thiết Kế
+Bài học lớn nhất với em là AI nên được xem như một cộng sự, không phải một lối tắt. AI có thể tăng tốc quá trình suy nghĩ và thực hiện, nhưng em vẫn cần hiểu vấn đề, kiểm chứng câu trả lời và đưa ra quyết định có trách nhiệm. Sau workshop, em chú ý hơn đến cách viết prompt, cách ghi chép kiến thức và cách biến những nhiệm vụ nhỏ hằng ngày thành tiến bộ dài hạn.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+## Giá trị kết nối cộng đồng
 
-#### Kiến Trúc Kỹ Thuật
+- Kết nối với các anh chị admin và thành viên của AWS Study Group.
+- Gặp thêm các bạn đang học AWS, tìm hiểu AI tools và chuẩn bị định hướng nghề nghiệp.
+- Hiểu thêm cách tổ chức workshop cộng đồng và cách diễn giả cấu trúc một phần chia sẻ kỹ thuật.
+- Nhìn thấy giá trị của việc tham gia cộng đồng để trao đổi tài nguyên, nhận feedback và tìm hướng học tập.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+## Việc cần làm sau sự kiện
 
-#### Chiến Lược Hiện Đại Hóa
+- Luyện viết prompt rõ ràng hơn cho các tác vụ kỹ thuật và tài liệu.
+- Duy trì learning log có cấu trúc hơn cho các chủ đề AWS và AI.
+- Áp dụng vòng lặp BMAD vào các workshop và project sau này.
+- Tiếp tục tham gia các sự kiện AWS Study Group và FCAJ để học từ trải nghiệm thực tế của cộng đồng.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+## Tài nguyên
 
-### Ứng Dụng Vào Công Việc
+- [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+- Discord Lamentum
+- Slide và tài liệu sự kiện được cộng đồng chia sẻ
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+## Đánh giá tổng quan
 
-### Trải nghiệm trong event
+**5/5** - Workshop rất hữu ích vì kết hợp được AI, tư duy học tập, quy trình phát triển và chuẩn bị nghề nghiệp trong một buổi chia sẻ thực tế.
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+## Hình ảnh sự kiện
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+![Hình ảnh Event 1 - 1](/images/4-EventParticipated/event1/1783681915165_488790801746558625_6340294277924690580_a06885903030370c451aab2d36d9c3a8.jpg)
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+![Hình ảnh Event 1 - 2](/images/4-EventParticipated/event1/1783682364656_488790801746558625_6340294277924690580_78041e129d739700c9fed54ad5543377.jpg)
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+![Hình ảnh Event 1 - 3](/images/4-EventParticipated/event1/1783682364763_488790801746558625_6340294277924690580_f1b5ec5b87f4d08dbfa1fe94d8aa849b.jpg)
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![Hình ảnh Event 1 - 4](/images/4-EventParticipated/event1/1783682501731_488790801746558625_6340294277924690580_2d304eee1b9bf556ffb62cf67121e225.jpg)

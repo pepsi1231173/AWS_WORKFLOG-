@@ -1,0 +1,307 @@
+Template monthly cost budget
+https://us-east-1.console.aws.amazon.com/costmanagement/home#/budgets/details?name=LAB7-0704-TemplateCost
+
+Skip to Main Content
+[Alt+S]
+Global
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+Billing and Cost Management
+Budgets
+Budget details
+Billing and Cost Management
+Budgets
+Budget details
+Billing and Cost Management
+Billing View
+New
+Home
+Getting Started
+Dashboards
+New
+FinOps Agent
+Preview
+Billing and Payments
+Bills
+Payments
+Credits
+Purchase Orders
+Cost and Usage Analysis
+Cost Explorer
+Cost Explorer Saved Reports
+Cost Anomaly Detection
+Free Tier
+Data Exports
+Carbon emissions
+Cost Organization
+Cost Categories
+Cost Allocation Tags
+Billing Conductor
+Budgets and Planning
+Budgets
+New
+Budgets Reports
+Pricing Calculator
+New
+Savings and Commitments
+Cost Optimization Hub
+New
+Savings Plans
+Overview
+Inventory
+Recommendations
+Purchase Analyzer
+New
+Utilization Report
+Coverage Report
+Purchase Savings Plans
+Cart
+0
+Reservations
+Overview
+Recommendations
+New
+Utilization Report
+Coverage Report
+Preferences and Settings
+Payment Preferences
+Billing Preferences
+Cost Management Preferences
+New
+Tax Settings
+Invoice Configuration
+Billing Transfer
+New
+Legacy Pages
+LAB7-0704-TemplateCost
+ 
+Info
+Delete
+Edit
+Budget health
+ 
+Info
+Current vs. budgeted
+0.00%
+Amount spent: $0.00 of $5.00
+Forecasted vs budgeted (MTD)
+862.00%
+Amount spent: $43.10 of $5.00
+Alerts
+ 
+Info
+Thresholds
+-
+Actions
+-
+View all alerts
+Details
+Health status
+Healthy
+Budget type
+Cost budget Info
+Budget amount
+$5.00
+Period
+Monthly
+Start date
+2026-07-01
+End date
+-
+Additional budget parameters
+Budget history
+Alerts
+Tags
+Billing View
+Budget history
+View in AWS Cost Explorer
+Cost ($)
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+Jul 2025
+Aug 2025
+Sep 2025
+Oct 2025
+Nov 2025
+Dec 2025
+Jan 2026
+Feb 2026
+Mar 2026
+Apr 2026
+May 2026
+Jun 2026
+Actual cost
+Budgeted cost
+Monthly costs history
+Download as CSV
+Date
+	
+Actual
+	
+Budgeted
+	
+Budget variance (USD)
+	
+Budget variance (%)
+
+
+July 2026 (MTD)
+	
+$0.00
+	
+$5.00
+	
+$5.00
+	
+100.00%
+
+
+June 2026
+	
+-$0.00
+	
+-
+	
+-
+	
+-
+
+
+May 2026
+	
+-$0.00
+	
+-
+	
+-
+	
+-
+
+
+April 2026
+	
+-$0.00
+	
+-
+	
+-
+	
+-
+
+
+March 2026
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+February 2026
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+January 2026
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+December 2025
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+November 2025
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+October 2025
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+September 2025
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+August 2025
+	
+$0.00
+	
+-
+	
+-
+	
+-
+
+
+July 2025
+	
+$0.00
+	
+-
+	
+-
+	
+-
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences
+Current vs. budgeted : 0%
+Forecasted vs budgeted (MTD) : 862.0000000000001%

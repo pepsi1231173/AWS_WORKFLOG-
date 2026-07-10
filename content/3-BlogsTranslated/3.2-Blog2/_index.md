@@ -1,126 +1,52 @@
----
-title: "Blog 2"
-date: 2024-01-01
-weight: 1
+﻿---
+title: "Blog 2 - GameLift game sessions and CloudWatch logs"
+date: 2026-06-30
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+**Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
 {{% /notice %}}
 
-# Getting Started with Healthcare Data Lakes: Using Microservices
+# Operating Amazon GameLift game sessions and CloudWatch logs
 
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
+Facebook source: [AWS Study Group Facebook permalink 2198027240962236](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2198027240962236)
 
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
+Original AWS blog: [Host persistent world games on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/host-persistent-world-games-on-amazon-gamelift-servers/)
 
----
+![Active GameLift game session](/images/3-blogstranslated/731787736_1803852380595770_7260352658525805355_n.jpg)
 
-## Architecture Guidance
+![Terminate game session dialog](/images/3-blogstranslated/733756954_1803852333929108_7167563714267557677_n.jpg)
 
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
+![CloudWatch GameLift log group](/images/3-blogstranslated/731787739_1803852490595759_4367995617558889048_n.jpg)
 
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
+![CloudWatch log streams](/images/3-blogstranslated/731761336_1803852443929097_2885424837124105651_n.jpg)
 
-**The solution architecture is now as follows:**
+## Overview
 
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
+This post focuses on the operational side of Amazon GameLift. After a fleet is running, developers need to inspect game sessions, confirm whether a session is active, terminate sessions safely during testing, and use CloudWatch logs to debug server behavior.
 
----
+This workflow is important for multiplayer development because a server can start correctly but still fail during player connection, session shutdown, or runtime processing. GameLift console data and CloudWatch logs provide the evidence needed to debug those cases.
 
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
+## Game session management
 
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+A GameLift fleet can show active game sessions under the **Game sessions** tab. From there, the developer can inspect the game session ID, status, creation time, and location. During testing, a session can be terminated from the console.
 
----
+The preferred shutdown method is **Normal game session shutdown** because it lets the game server run its shutdown sequence and call the GameLift server SDK action that marks the process as ending. Immediate shutdown should be used only when the server is unresponsive.
 
-## Technology Choices and Communication Scope
+## CloudWatch log inspection
 
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+GameLift can publish server logs to Amazon CloudWatch. The developer can find the related log group, open the log streams, and inspect the output from each server process. This is useful for checking startup logs, player join events, errors, exceptions, and shutdown behavior.
 
----
+## Lessons learned
 
-## The Pub/Sub Hub
+- Always verify the game session status before debugging the client.
+- Use normal shutdown when possible so the server process can clean up correctly.
+- CloudWatch log groups and log streams are essential for understanding what happened inside a GameLift server.
+- Runtime logs should include startup, player connection, game session activation, player disconnect, and process shutdown events.
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
+## Application to RoughLife
 
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
+For RoughLife, these steps should be part of the test checklist. Each server build should be validated by creating a game session, connecting a Unity client, checking logs, and shutting the session down normally. This reduces uncertainty before adding more complex gameplay logic.
 
----
-
-## Core Microservice
-
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
-
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
-
----
-
-## Front Door Microservice
-
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
-
----
-
-## Staging ER7 Microservice
-
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
-
----
-
-## New Features in the Solution
-
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn

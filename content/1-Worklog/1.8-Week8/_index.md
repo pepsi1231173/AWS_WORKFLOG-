@@ -1,57 +1,140 @@
 ---
-title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+title: 'Week 8 Worklog'
+date: 2026-06-14
+weight: 8
 chapter: false
-pre: " <b> 1.8. </b> "
+pre: ' <b> 1.8. </b> '
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+{{% notice warning %}}
+**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+{{% /notice %}}
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Complete Lab 15: deploy a Docker-based application using VPC, RDS, ECR, and EC2.
+- Complete Lab 28: practice IAM policy management, MFA trust policy, role switching, and EC2 permission validation.
+- Document deployment evidence and cleanup results for both labs.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Status |
+| --- | ---- | ---------- | --------------- | ------ |
+| 2 | - Lab 15: create VPC, subnets, security groups, and IAM role for the deployment environment. <br> - Prepare ECR repositories for frontend and backend container images. | 08/06/2026 | 08/06/2026 | Done |
+| 3 | - Lab 15: create and configure Amazon RDS. <br> - Launch EC2 instance and key pair for running the Docker application. | 09/06/2026 | 09/06/2026 | Done |
+| 4 | - Lab 15: build and run Docker frontend and backend services. <br> - Push frontend and backend images to Amazon ECR. | 10/06/2026 | 10/06/2026 | Done |
+| 5 | - Lab 15: verify the deployed application and clean up EC2, RDS, ECR, security group, IAM role, and VPC resources. | 11/06/2026 | 11/06/2026 | Done |
+| 6 | - Lab 28: create IAM admin group, IAM user, custom policies, and IAM role. <br> - Configure trust policy with MFA requirements. | 12/06/2026 | 12/06/2026 | Done |
+| 7 | - Lab 28: test EC2 permissions, tags, and role switching. <br> - Clean up EC2 instance, IAM role, policies, user, and group. | 13/06/2026 | 13/06/2026 | Done |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Lab 15:
 
-* Successfully created and configured an AWS Free Tier account.
+- Created VPC, subnets, security groups, and IAM role for the Docker application environment.
+- Created Amazon ECR repositories for frontend and backend container images.
+- Configured Amazon RDS and EC2 resources for application deployment.
+- Built, ran, and verified Docker frontend and backend services.
+- Pushed container images to Amazon ECR.
+- Cleaned up EC2, RDS, ECR, security group, IAM role, and VPC resources after the lab.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+### Lab 28:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Created IAM admin group and IAM user for access management practice.
+- Created and reviewed IAM policies for EC2 permissions and tag-based controls.
+- Configured IAM role permissions and trust policy with MFA conditions.
+- Tested EC2 instance creation, instance tags, and role switching flow.
+- Cleaned up EC2, IAM role, policies, user, and group after validation.
 
-* Used AWS CLI to perform basic operations such as:
+### Lab Evidence:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+#### aws-lab-000015 - Docker app deployment with VPC, RDS, ECR, and EC2 (22 images)
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+<img src="/images/1-Worklog/labs/aws-lab-000015/02-vpc-created-ui.png" alt="aws-lab-000015 - 02-vpc-created-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/03-subnets-created-ui.png" alt="aws-lab-000015 - 03-subnets-created-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/04-security-groups-created-ui.png" alt="aws-lab-000015 - 04-security-groups-created-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/05-iam-role-ecr-ui.png" alt="aws-lab-000015 - 05-iam-role-ecr-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/06b-ecr-repositories-ui.png" alt="aws-lab-000015 - 06b-ecr-repositories-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/06-ecr-repositories-ui.png" alt="aws-lab-000015 - 06-ecr-repositories-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/07b-rds-available-ui.png" alt="aws-lab-000015 - 07b-rds-available-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/07-rds-creating-ui.png" alt="aws-lab-000015 - 07-rds-creating-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/08b-ec2-instance-detail-ui.png" alt="aws-lab-000015 - 08b-ec2-instance-detail-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/08-ec2-instance-ui.png" alt="aws-lab-000015 - 08-ec2-instance-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/09-key-pair-ui.png" alt="aws-lab-000015 - 09-key-pair-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/10b-docker-frontend-app-ui.png" alt="aws-lab-000015 - 10b-docker-frontend-app-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/11b-docker-backend-api-ui.png" alt="aws-lab-000015 - 11b-docker-backend-api-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/13b-ecr-frontend-image-ui.png" alt="aws-lab-000015 - 13b-ecr-frontend-image-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/13-ecr-frontend-image-ui.png" alt="aws-lab-000015 - 13-ecr-frontend-image-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/14-ecr-backend-image-ui.png" alt="aws-lab-000015 - 14-ecr-backend-image-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/16-cleanup-vpc-no-match-ui.png" alt="aws-lab-000015 - 16-cleanup-vpc-no-match-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/17-cleanup-rds-no-db-ui.png" alt="aws-lab-000015 - 17-cleanup-rds-no-db-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/18-cleanup-ecr-no-repos-ui.png" alt="aws-lab-000015 - 18-cleanup-ecr-no-repos-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/19-cleanup-security-groups-no-match-ui.png" alt="aws-lab-000015 - 19-cleanup-security-groups-no-match-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/20-cleanup-iam-role-not-found-ui.png" alt="aws-lab-000015 - 20-cleanup-iam-role-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000015/21-cleanup-ec2-no-active-ui.png" alt="aws-lab-000015 - 21-cleanup-ec2-no-active-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+#### aws-lab-000028 - IAM policy management, MFA, and role switching (21 images)
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/02-iam-admin-group-ui.png" alt="aws-lab-000028 - 02-iam-admin-group-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/03-iam-admin-user-ui.png" alt="aws-lab-000028 - 03-iam-admin-user-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/04-iam-policies-list-ui.png" alt="aws-lab-000028 - 04-iam-policies-list-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/05-iam-role-permissions-ui.png" alt="aws-lab-000028 - 05-iam-role-permissions-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/06b-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06b-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/06c-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06c-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/06d-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06d-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/06-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/07b-policy-run-instances-ui.png" alt="aws-lab-000028 - 07b-policy-run-instances-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/07c-policy-run-instances-json-ui.png" alt="aws-lab-000028 - 07c-policy-run-instances-json-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/07-policy-run-instances-ui.png" alt="aws-lab-000028 - 07-policy-run-instances-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/08-ec2-example-instance-ui.png" alt="aws-lab-000028 - 08-ec2-example-instance-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/09d-ec2-tags-ui.png" alt="aws-lab-000028 - 09d-ec2-tags-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/09-ec2-example-detail-ui.png" alt="aws-lab-000028 - 09-ec2-example-detail-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/10b-switch-role-result-ui.png" alt="aws-lab-000028 - 10b-switch-role-result-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/10-switch-role-page-ui.png" alt="aws-lab-000028 - 10-switch-role-page-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/12-cleanup-ec2-example-terminated-ui.png" alt="aws-lab-000028 - 12-cleanup-ec2-example-terminated-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/13-cleanup-role-not-found-ui.png" alt="aws-lab-000028 - 13-cleanup-role-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/14-cleanup-policy-not-found-ui.png" alt="aws-lab-000028 - 14-cleanup-policy-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/15-cleanup-user-not-found-ui.png" alt="aws-lab-000028 - 15-cleanup-user-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+
+<img src="/images/1-Worklog/labs/aws-lab-000028/16-cleanup-group-not-found-ui.png" alt="aws-lab-000028 - 16-cleanup-group-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+

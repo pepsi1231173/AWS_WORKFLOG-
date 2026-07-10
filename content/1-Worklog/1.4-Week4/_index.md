@@ -1,246 +1,100 @@
 ---
 title: 'Week 4 Worklog'
 date: 2026-05-14
-weight: 1
+weight: 4
 chapter: false
 pre: ' <b> 1.4. </b> '
 ---
 
 {{% notice warning %}}
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 ### Week 4 Objectives:
 
-- Create budget.
-- Understand basic AWS services, how to use the console & CLI.
+- Complete Lab 4: practice EC2 storage, EBS snapshot, custom AMI, and IAM policy verification.
+- Complete Lab 5: deploy Amazon RDS with subnet groups, security groups, EC2 access, snapshot, and restore workflow.
+- Document infrastructure screenshots for EC2, EBS, AMI, IAM, VPC, and RDS resources.
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                                                                                                                | Start Date | Completion Date | Status |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------ |
-| 2   | - Create Budget <br> - Create Cost Budget <br> - Create Usage Budget                                                                                                                                                                                                                                | 11/05/2026 | 11/05/2026      | Done   |
-| 3   | - Create RI Budget <br>- Create Savings Plans Budget <br>                                                                                                                                                                                                                                           | 12/05/2026 | 12/05/2026      | Done   |
-| 4   | - Read Introduction <br> - Take the preparation steps <br>                                                                                                                                                                                                                                          | 12/05/2026 | 12/05/2026      | Done   |
-| 5   | - Learn basic CloudWatch Metrics: <br>&emsp; + Viewing Metrics <br>&emsp; + Search expressions <br>&emsp; + Math expressions <br>&emsp; + Dynamic Labels <br> - Learn basic CloudWatch Logs <br>&emsp; + CloudWatch Logs <br>&emsp;+ CloudWatch Logs Insights<br> &emsp; + CloudWatch Metric Filter | 13/05/2026 | 13/05/2026      | Done   |
-| 6   | - CloudWatch Alarms<br> - CloudWatch Dashboards <br>                                                                                                                                                                                                                                                | 14/05/2026 | 14/05/2026      | Done   |
+| Day | Task | Start Date | Completion Date | Status |
+| --- | ---- | ---------- | --------------- | ------ |
+| 2 | - Lab 4: inspect CloudShell, VPC, subnets, security groups, and EC2 instances. | 11/05/2026 | 11/05/2026 | Done |
+| 3 | - Lab 4: verify EBS volumes, create snapshots, create custom AMI, and review IAM group/user/policy checks. | 12/05/2026 | 12/05/2026 | Done |
+| 4 | - Lab 5: prepare VPC, public subnet, DB subnets, EC2 security group, and RDS security group. | 13/05/2026 | 13/05/2026 | Done |
+| 5 | - Lab 5: create DB subnet group, launch EC2 instance, and deploy Amazon RDS database. | 14/05/2026 | 14/05/2026 | Done |
+| 6 | - Lab 5: verify database snapshot, restore workflow, and connection test result. | 15/05/2026 | 15/05/2026 | Done |
 
 ### Week 4 Achievements:
 
-## Step 1: Create Budget
+### Lab 4:
 
-- Find and select AWS Billing and Cost Management service.
-- Select **Budgets** -> **Create budget**
+- Reviewed VPC, subnet, security group, and EC2 inventory from the AWS Console/CloudShell.
+- Checked EBS volumes and EBS snapshots for EC2 storage management.
+- Created or verified a custom AMI from an EC2 instance.
+- Reviewed IAM group, user, and policy evidence for access control checks.
 
-## Step 2: Create Cost Budget
+### Lab 5:
 
-- Find and select AWS Billing and Cost Management service.
-- Select **Budgets** -> **Create budget**.
-- In the Budget setup section:
+- Prepared networking resources for Amazon RDS deployment.
+- Created DB subnet group and security group rules for database access.
+- Launched EC2 and Amazon RDS resources for database connectivity testing.
+- Verified RDS snapshot/restore workflow and final test evidence.
 
-* Select **Customize**
-* Under **Budget types**, select **Cost budget**
+### Lab Evidence:
 
-- Then follow the setup steps -> **Create budget** to complete.
+#### aws-lab-000004 - EC2 storage, custom AMI, and IAM policy checks (12 images)
 
-## Step 3: Create RI Budget
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/00-cloudshell-current.png" alt="aws-lab-000004 - 00-cloudshell-current" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-- Similar to step 2
-- At **Budget setup**:
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/02-vpc-list.png" alt="aws-lab-000004 - 02-vpc-list" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-* Select **Customize**
-* Select **Reservation budget**
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/03-subnets.png" alt="aws-lab-000004 - 03-subnets" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-- Then follow the setup steps -> **Create budget** to complete.
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/04-security-groups.png" alt="aws-lab-000004 - 04-security-groups" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-## Step 4: Create Savings Plans Budget
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/05-ec2-instances.png" alt="aws-lab-000004 - 05-ec2-instances" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-- Similar to step 2
-- At **Budget setup**:
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/06-ebs-volumes.png" alt="aws-lab-000004 - 06-ebs-volumes" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-* Select **Customize**
-* Under **Budget types**, select **Savings Plans budget**
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/07-ebs-snapshots.png" alt="aws-lab-000004 - 07-ebs-snapshots" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-- Then follow the setup steps ->**Create budget** to complete.
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/08-custom-ami.png" alt="aws-lab-000004 - 08-custom-ami" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-## Step 5: CloudWatch Metrics + CloudWatch Logs + CloudWatch Alarms + CloudWatch Dashboards
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/09-iam-policies.png" alt="aws-lab-000004 - 09-iam-policies" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-![alt text](image.png)
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/15-cleanup-ec2-empty.png" alt="aws-lab-000004 - 15-cleanup-ec2-empty" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-## 1. CloudWatch Metrics
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/16-cleanup-vpc-empty.png" alt="aws-lab-000004 - 16-cleanup-vpc-empty" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-### Steps Performed
+<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/17-cleanup-ami-snapshot-empty.png" alt="aws-lab-000004 - 17-cleanup-ami-snapshot-empty" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-- Searched for CloudWatch and opened the service.
-- In the left navigation pane, selected Metrics > All metrics.
-- Searched for EC2 metrics.
-- Opened EC2 > Per-Instance Metrics.
-- Filtered the metric CPUUtilization.
-- Selected two EC2 instances to compare their CPU performance.
-- Observed workload activity from the graph.
-- Searched for EBSWriteBytes to analyze storage activity.
+#### aws-lab-000005 - Amazon RDS deployment, snapshot, and restore (13 images)
 
-## 2. Search Expressions
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/00-cdp-test.png" alt="aws-lab-000005 - 00-cdp-test" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-### Steps Performed
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/01-vpc-details.png" alt="aws-lab-000005 - 01-vpc-details" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-1. Cleared the old graph.
-2. Returned to the Browse tab.
-3. Added CPUUtilization metric.
-4. Clicked Graph search.
-5. Added search expressions such as:
-   - SEARCH("disk_used_percent", 'Average', 300)
-   - SEARCH("used", 'Average', 300)
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/02-public-subnet.png" alt="aws-lab-000005 - 02-public-subnet" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-6. Changed graph style to Stacked area.
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/03-db-subnet-az1.png" alt="aws-lab-000005 - 03-db-subnet-az1" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-### Result
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/04-ec2-security-group.png" alt="aws-lab-000005 - 04-ec2-security-group" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-Search expressions simplified metric discovery and improved graph readability for monitoring multiple metrics.
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/05-rds-security-group.png" alt="aws-lab-000005 - 05-rds-security-group" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
----
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/06-db-subnet-group.png" alt="aws-lab-000005 - 06-db-subnet-group" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-## 3. Mathematical Expressions
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/07-ec2-instance.png" alt="aws-lab-000005 - 07-ec2-instance" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-### Steps Performed
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/08-rds-databases-list.png" alt="aws-lab-000005 - 08-rds-databases-list" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-1. Cleared previous expressions.
-2. Returned to Browse tab.
-3. Clicked Add math.
-4. Selected Top 10 by sum.
-5. Applied the expression:
-   SORT(e1, SUM, DEC, 3)
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/09-rds-original-detail.png" alt="aws-lab-000005 - 09-rds-original-detail" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-### Result
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/10-app-page.png" alt="aws-lab-000005 - 10-app-page" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-The graph automatically sorted metrics based on total values, helping identify the most active resources.
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/11-rds-snapshot.png" alt="aws-lab-000005 - 11-rds-snapshot" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
----
+<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/12-rds-restore-detail.png" alt="aws-lab-000005 - 12-rds-restore-detail" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
 
-## 4. Dynamic Labels
-
-### Steps Performed
-
-1. Cleared previous filters and expressions.
-2. Opened the CWAgent namespace.
-3. Selected dimensions:
-   - ImageId
-   - InstanceId
-   - InstanceType
-   - exe
-   - process_name
-
-4. Filtered using:
-   - exe=cloudwatch
-   - MetricName=procstat_memory_rss
-
-5. Clicked Graph search.
-6. Added dynamic labels using:
-   ${PROP('Dim.exe')} - ${PROP('Dim.InstanceId')} - ${PROP('MetricName')}
-
-### Result
-
-Dynamic labels automatically updated graph names and improved metric identification.
-
----
-
-## 5. CloudWatch Logs
-
-### Steps Performed
-
-1. Opened CloudWatch console.
-2. Selected Logs > Log groups.
-3. Searched for /ec2/linux/var/log/messages.
-4. Opened a log stream from an EC2 instance.
-5. Viewed system log entries.
-6. Configured log retention to 1 week.
-
-### Result
-
-CloudWatch Logs stored and organized EC2 system logs for monitoring and troubleshooting purposes.
-
----
-
-## 6. CloudWatch Logs Insights
-
-### Steps Performed
-
-1. Opened EC2 Console.
-2. Connected to an EC2 instance using Session Manager.
-3. Downloaded and executed logger.py script.
-4. Monitored logs using:
-   sudo tail -f /var/log/messages
-5. Opened CloudWatch Logs Insights.
-6. Ran queries such as:
-   - ERROR logs
-   - WARN logs
-   - eth0 logs
-
-7. Visualized query results.
-8. Saved queries for future use.
-
-### Result
-
-Logs Insights enabled advanced log searching, filtering, and visualization for application monitoring.
-
----
-
-## 7. CloudWatch Metric Filter
-
-### Steps Performed
-
-1. Opened the log group /ec2/linux/var/log/messages.
-2. Selected Create metric filter.
-3. Used ERROR as the filter pattern.
-4. Configured:
-   - Metric namespace: ec2-logs
-   - Metric name: /var/log/messages - ERROR
-   - Metric value: 1
-
-5. Created the metric filter.
-
-### Result
-
-The metric filter converted ERROR log events into CloudWatch metrics for monitoring.
-
----
-
-## 8. CloudWatch Alarms
-
-### Steps Performed
-
-1. Opened CloudWatch Alarms.
-2. Clicked Create alarm.
-3. Selected the custom ERROR metric.
-4. Configured:
-   - Period: 1 minute
-   - Threshold: Greater than 10
-
-5. Created an SNS topic for email notifications.
-6. Named the alarm PythonApplicationErrorAlarm.
-7. Confirmed the SNS subscription via email.
-
-### Result
-
-The alarm monitored application errors and sent notifications when the threshold was exceeded.
-
----
-
-## 9. CloudWatch Dashboard
-
-### Steps Performed
-
-1. Selected the created alarm.
-2. Clicked Add to dashboard.
-3. Created a dashboard named CloudWatch-Workshop.
-4. Added alarm widgets to the dashboard.
-
-### Result
-
-The dashboard provided a centralized view of monitoring metrics and alarms.
-
----
-
-## Conclusion
-
-I learned how to use Amazon CloudWatch to monitor AWS resources, analyze logs, create alarms, and build dashboards. The lab provided practical experience with metrics visualization, log analysis, and automated monitoring in AWS.

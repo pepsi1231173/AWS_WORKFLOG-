@@ -1,1 +1,4 @@
 public/*
+.tools/
+.hugo-server*.log
+.hugo_build.lock

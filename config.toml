@@ -1,4 +1,4 @@
-baseURL = "https://workshop-sample.fcjuni.com/"
+baseURL = "https://pepsi1231173.github.io/AWS_WORKFLOG-/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -15,8 +15,8 @@ home = [ "HTML", "RSS", "JSON"]
   themeVariant = "workshop"
   # Git hub repo link
   editURL = ""
-  description = ""
-  author = "thienlh@thienlu.com"
+  description = "thực tập tốt nghiệp"
+  author = "nguyencong7564@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false

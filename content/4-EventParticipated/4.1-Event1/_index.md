@@ -1,126 +1,95 @@
 ---
-title: "Event 1"
+title: "AWS Study Group Workshop - AI in Development"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# AWS Study Group Workshop - AI in Development
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## Event Information
 
-### Event Objectives
+**Event name:** AWS Study Group Workshop - AI in Development Lifecycle  
+**Date:** May 9, 2026  
+**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+**Role:** Attendee
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## Overview
 
-### Speakers
+This workshop helped me understand how AI is changing the way developers learn, build, and improve software. The event did not only introduce AI tools; it connected AI-assisted development with learning discipline, prompt quality, career preparation, and modern product delivery.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+What made the workshop useful was the balance between mindset and practice. I could see that using AI effectively is not about depending on a tool to do everything, but about asking better questions, giving clearer context, checking the output carefully, and turning AI support into a real development habit.
 
-### Key Highlights
+## Event Objectives
 
-#### Identifying the drawbacks of legacy application architecture
+- Understand how AI can support the software development lifecycle, from ideation and coding to documentation and iteration.
+- Learn practical approaches to prompt engineering and improving LLM output quality.
+- Build better learning habits so technical growth becomes consistent instead of random.
+- Reflect on the gap between studying technology and being ready for professional work.
+- Learn how modern teams build, measure, analyze, and deploy products in an iterative way.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+## Speakers and Sessions
 
-#### Transitioning to modern application architecture – Microservices
+- **Anh Long:** Shared strategies for making learning more engaging and sustainable, especially for students who are easily distracted by social media.
+- **Anh Thịnh:** Introduced automated prompt engineering and explained how better prompts can improve the quality of AI-generated output.
+- **Anh Khang:** Discussed job readiness, why many learners delay entering the workforce, and what should be prepared before applying for real roles.
+- **Software Developer speaker:** Shared the BMAD mindset: Build, Measure, Analyze, and Deploy as a practical cycle for modern software development.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+## Key Takeaways
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+### Learning Habits and Motivation
 
-#### Domain-Driven Design (DDD)
+I learned that technical growth depends heavily on consistency. A good learning system should be small enough to maintain daily, but clear enough to show progress over time. This made me rethink how I schedule AWS study, project work, and documentation.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### AI-Powered Development
 
-#### Event-Driven Architecture
+AI can support many development activities, but the quality of the result depends on the quality of the context. A useful prompt should explain the goal, constraints, current situation, expected output, and evaluation criteria. This is especially important when using AI for coding, architecture explanation, or writing technical documents.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+### Career Readiness
 
-#### Compute Evolution
+The career sharing session reminded me that technical knowledge alone is not enough. Communication, ownership, teamwork, and the ability to explain decisions are also important when moving from learning to real work.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### Modern Development Practices
 
-#### Amazon Q Developer
+The BMAD cycle helped me see product development as an iterative process. Instead of trying to make everything perfect at the beginning, it is better to build a small version, measure results, analyze feedback, and improve continuously.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+## Personal Reflection
 
-### Key Takeaways
+This event was valuable because it connected directly with my internship journey. I was learning AWS, writing reports, building workshop content, and using AI tools at the same time, so the sessions helped me organize those activities more intentionally.
 
-#### Design Mindset
+The biggest lesson for me was that AI should be treated as a collaborator, not a shortcut. It can speed up thinking and execution, but I still need to understand the problem, verify the answer, and make responsible decisions. After the workshop, I became more careful with how I write prompts, how I document learning, and how I turn small daily tasks into long-term progress.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+## Networking and Community Value
 
-#### Technical Architecture
+- Connected with AWS Study Group admins and community members.
+- Met other learners who were also exploring AWS, AI tools, and career development.
+- Learned how community workshops are organized and how speakers structure technical sharing.
+- Saw the value of staying active in a community where people exchange resources, feedback, and learning directions.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+## Action Items
 
-#### Modernization Strategy
+- Practice writing clearer prompts for technical tasks and documentation.
+- Keep a more structured learning log for AWS and AI-related topics.
+- Apply the BMAD cycle to future workshop and project work.
+- Continue joining AWS Study Group and FCAJ events to learn from community experience.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+## Resources
 
-### Applying to Work
+- [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+- Discord Lamentum
+- Event slides and materials shared by the community
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+## Overall Rating
 
-### Event Experience
+**5/5** - This workshop was highly useful because it combined AI, learning mindset, development process, and career preparation in one practical session.
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+## Event Photos
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+![Event 1 photo 1](/images/4-EventParticipated/event1/1783681915165_488790801746558625_6340294277924690580_a06885903030370c451aab2d36d9c3a8.jpg)
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+![Event 1 photo 2](/images/4-EventParticipated/event1/1783682364656_488790801746558625_6340294277924690580_78041e129d739700c9fed54ad5543377.jpg)
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+![Event 1 photo 3](/images/4-EventParticipated/event1/1783682364763_488790801746558625_6340294277924690580_f1b5ec5b87f4d08dbfa1fe94d8aa849b.jpg)
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Event 1 photo 4](/images/4-EventParticipated/event1/1783682501731_488790801746558625_6340294277924690580_2d304eee1b9bf556ffb62cf67121e225.jpg)

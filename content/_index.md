@@ -13,25 +13,25 @@ chapter: false
 
 ### Student Information:
 
-&emsp; **Full Name:** Trần Hữu Lễ
+&emsp; **Full Name:** Nguyen Thanh Cong
 
-&emsp; **Phone Number:** 0854700572
+&emsp; **Phone Number:** 0588888238
 
-&emsp; **Email:** letran237123@gmail.com
+&emsp; **Email:** nguyencong7564@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** HUTECH University of Technology
 
-&emsp; **Major:** Information Technology
+&emsp; **Major:** Software Engineering
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHD7
 
-&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
+&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Internship Position:** FCJ Cloud Intern
+&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 20/04/2026 to 12/07/2026
 
-![Your profile picture](/images/avatar.png)
+![Nguyen Thanh Cong](/images/avatar.jpg)
 
 ### Report Content
 

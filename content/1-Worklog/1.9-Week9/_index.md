@@ -1,57 +1,37 @@
 ---
-title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+title: 'Week 9 Worklog'
+date: 2024-06-21
+weight: 9
 chapter: false
-pre: " <b> 1.9. </b> "
+pre: ' <b> 1.9. </b> '
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+{{% notice warning %}}
+**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+{{% /notice %}}
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Design the UI (Lobby Scene: player position on entry, room code, etc.) and learn about online game mechanisms.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day       | Task                                                                                                                                                                                                                                                   | Start Date | Completion Date | Status      |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------- |
+| 2 , 3 , 4 | - Learn and study how to create a Lobby in Unity <br> - Search for images to design the UI                                                                                                                                                             | 15/06/2026 | 17/06/2026      | Done        |
+| 5 , 6 , 7 | - Design the UI <br>&emsp; + Character position when entering the Lobby <br>&emsp; + Join Room panel <br>&emsp; + Room code input field <br>&emsp; + Start Game button <br>&emsp; + Exit to Menu button <br> - Implement the logic for these functions | 18/06/2026 | 20/06/2026      | In Progress |
+| 8         | - Learn about online mechanisms <br> - Learn about the AWS services required                                                                                                                                                                           | 21/06/2026 | 21/06/2026      | Done        |
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Learned and understood how to build a Lobby system in Unity, including the process of creating rooms, joining rooms, and managing players before starting a match.
+- Searched for suitable image assets to design the Lobby interface, ensuring it is intuitive and user-friendly.
+- Completed the Lobby interface design with key components such as the character display position when entering a room, Join Room panel, room code input field, Start Game button, and Exit to Menu button.
+- Built and implemented the logic for the Lobby functions, allowing players to enter room codes, join rooms, and perform basic interactions within the interface.
+- Learned about the operating mechanisms of online games, particularly how connections between multiple players in the same room are managed.
+- Researched AWS services that can be used for the project and identified suitable services to support the Multiplayer system and future data management.
 
-* Successfully created and configured an AWS Free Tier account.
+### Architecture Diagram Work
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Drew and refined the project architecture diagram using app.diagrams.net.
+- Organized AWS services, Unity client flow, backend components, and multiplayer connection flow in the diagram.

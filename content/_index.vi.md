@@ -1,33 +1,33 @@
 ---
-title: "Báo cáo thực tập"
+title: 'Báo cáo thực tập'
 date: 2024-01-01
 weight: 1
 chapter: false
 ---
 
 # Báo cáo thực tập
+
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Họ và tên:** Nguyen Thanh Cong
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Số điện thoại:** 0588888238
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Email:** nguyencong7564@gmail.com
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Trường:** Đại học Công Nghệ Hutech
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Ngành:** Kỹ thuật phần mềm
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Lớp:** 22DTHD7
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Công ty thực tập:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+&emsp; **Thời gian thực tập:** Từ ngày 20 tháng 4 năm 2026 đến ngày 12 tháng 7 năm 2026
 
-
+![Nguyen Thanh Cong](/images/avatar.jpg)
 
 ### Nội dung báo cáo
 

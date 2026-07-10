@@ -1,59 +1,36 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+title: 'Worklog Tuần 11'
+date: 2024-07-04
+weight: 11
 chapter: false
-pre: " <b> 1.11. </b> "
+pre: ' <b> 1.11. </b> '
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+{{% notice warning %}}
+**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
+{{% /notice %}}
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Thiết kế UI(menu, enter room)
+-Xử lý onlline: (thanh máu, ô chứa vũ khí, ô chi tiết vũ khí)
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ       | Công việc                                                                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2 , 3 , 4 | - Thiết kế menu(Nút onlline, Offline, Setting, Exit) <br> - Tìm kiếm tài nguyên để thiết kế UI<br> - Tìm kiếm và thiết kế nhạc cho các màn                                      | 29/06/2026   | 01/07/2026      | Hoàn thành     |
+| 5 , 6     | Viết code thực hiện logic cho onlline gồm: <br>&emsp; + Thanh máu nhân vật <br>&emsp; + ô để khi nhặt vũ khí thì hiện lên <br> &emsp; + Ô chi tiết vũ khí khi nhân vật chạm vào | 02/07/2026   | 03/07/2026      | Hoàn thành     |
+| 7         | - Tham gia event của aws <br> - Thiết kế UI cho Enter Room                                                                                                                      | 04/07/2026   | 04/07/2026      | Hoàn Thành     |
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hoàn thành thiết kế giao diện Menu của trò chơi với các chức năng Online, Offline, Setting và Exit, đồng thời điều chỉnh bố cục và vị trí các thành phần để giao diện dễ nhìn và thuận tiện khi sử dụng.
+- Tìm kiếm và lựa chọn các tài nguyên như hình ảnh, icon, font chữ và các thành phần UI phù hợp để phục vụ quá trình thiết kế.
+- Tìm và lựa chọn nhạc nền phù hợp cho các màn hình của trò chơi nhằm tăng trải nghiệm cho người chơi.
+- Hoàn thiện giao diện Online, bao gồm:
+- Thiết kế và lập trình thanh máu để hiển thị lượng máu hiện tại của người chơi trong trận đấu.
+- Thực hiện ô hiển thị vũ khí khi người chơi nhặt được vũ khí, giúp nhận biết vũ khí đang được trang bị.
+- Xây dựng bảng thông tin chi tiết của vũ khí, hiển thị các thông số cần thiết khi người chơi tiến lại gần hoặc tương tác với vũ khí.
+- Thiết kế giao diện Enter Room, sắp xếp các thành phần để người chơi có thể tạo phòng hoặc tham gia phòng trước khi vào trận.
+- Tham gia sự kiện AWS để tìm hiểu thêm về các công nghệ và dịch vụ điện toán đám mây, đồng thời học hỏi thêm kiến thức phục vụ cho quá trình phát triển dự án.

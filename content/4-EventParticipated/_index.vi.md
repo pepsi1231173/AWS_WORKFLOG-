@@ -6,41 +6,53 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Các events đã tham gia
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+Trong thời gian thực tập, em đã tham gia nhiều sự kiện của AWS Study Group và cộng đồng FCAJ. Những buổi này giúp em kết nối kiến thức học được với các chia sẻ thực tế từ cộng đồng: AI-assisted development, cloud delivery, security, DevOps automation, teamwork và bảo mật cho hệ thống AI trong doanh nghiệp.
 
+Mỗi sự kiện mang lại một giá trị khác nhau. Có buổi giúp em nhìn lại thói quen học tập và định hướng nghề nghiệp, có buổi đi sâu vào kiến trúc kỹ thuật, và có buổi giúp em hiểu rõ hơn cách các anh chị trong cộng đồng trình bày ý tưởng, xây dựng sản phẩm và phát triển trong lĩnh vực cloud.
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+## Danh sách sự kiện
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+### Event 1: AWS Study Group Workshop - AI in Development
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+&emsp;**Thời gian:** 09/05/2026  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
+&emsp;**Vai trò:** Người tham dự  
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+Workshop chia sẻ về thói quen học tập, prompt engineering, sự chuẩn bị trước khi đi làm và vai trò của AI trong vòng đời phát triển phần mềm.
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+[Xem chi tiết Event 1](4.1-Event1/)
 
+---
 
+### Event 2: FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems
 
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+&emsp;**Thời gian:** 23/05/2026  
+&emsp;**Vai trò:** Người tham dự  
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+Một buổi chia sẻ cộng đồng với các chủ đề về second brain, Amazon Q, CloudFront, xây dựng sản phẩm trong hackathon, nền tảng hoạt động của LLM và enterprise multi-agent systems.
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+[Xem chi tiết Event 2](4.2-Event2/)
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+---
 
+### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
+
+&emsp;**Thời gian:** Tháng 6/2026  
+&emsp;**Vai trò:** Người tham dự  
+
+Một buổi chia sẻ cộng đồng về Docker, AWS WAF kết hợp machine learning, AWS WebSockets cho multiplayer systems, teamwork, Amazon Neptune cho GraphRAG và lộ trình phát triển lên Cloud/DevOps.
+
+[Xem chi tiết Event 3](4.3-Event3/)
+
+---
+
+### Event 4: FCAJ Community Day - AI Agents and DevOps
+
+&emsp;**Thời gian:** 06/06/2026  
+&emsp;**Vai trò:** Người tham dự  
+
+Một buổi community day tập trung vào AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture và các câu chuyện phát triển nghề nghiệp trong lĩnh vực cloud.
+
+[Xem chi tiết Event 4](4.4-Event4/)

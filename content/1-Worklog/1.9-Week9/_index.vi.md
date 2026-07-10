@@ -1,59 +1,36 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+title: 'Worklog Tuần 9'
+date: 2024-06-21
+weight: 9
 chapter: false
-pre: " <b> 1.9. </b> "
+pre: ' <b> 1.9. </b> '
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+{{% notice warning %}}
+**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
+{{% /notice %}}
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Thiết kế UI(Scene Looby: Vị trí khi vào, code phòng,..) tìm hiểu về cơ chế online.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ       | Công việc                                                                                                                                                                                                | Ngày bắt đầu | Ngày hoàn thành | Trạng thái      |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------- |
+| 2 , 3 , 4 | - Tìm hiểu, học về cách làm Lobby cho Unity <br> - Tìm kiếm ảnh để thiết kế UI                                                                                                                           | 15/06/2026   | 17/06/2026      | Hoàn thành      |
+| 5 , 6 , 7 | - Thiết kế Ui <br>&emsp; + Vị trí nv ở khi vào Lobby <br>&emsp; + Ô join phòng <br>&emsp; + Ô nhập code <br>&emsp; + Nút start game <br>&emsp; + Nút out về menu <br> - Thực hiện logic các chức năng đó | 18/06/2026   | 20/06/2026      | Đang hoàn thiện |
+| 8         | - Tìm hiểu về cơ chế Onlline <br> - Tìm hiểu các dịch vụ của AWS cần dùng                                                                                                                                | 21/06/2026   | 21/06/2026      | Hoàn thành      |
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Tìm hiểu và nắm được cách xây dựng hệ thống Lobby trong Unity gồm: quy trình tạo phòng, tham gia phòng và quản lý người chơi trước khi bắt đầu trận đấu.
+- Tìm kiếm các tài nguyên hình ảnh phù hợp để thiết kế giao diện Lobby, đảm bảo tính trực quan và dễ sử dụng cho người chơi.
+- Hoàn thành thiết kế giao diện Lobby với các thành phần chính như vị trí hiển thị nhân vật khi vào phòng, ô Join Room, ô nhập mã phòng, nút Start Game và nút quay về Menu.
+- Xây dựng và triển khai logic cho các chức năng của Lobby, cho phép người chơi nhập mã phòng, tham gia phòng và thực hiện các thao tác cơ bản trên giao diện.
+- Tìm hiểu cơ chế hoạt động của game Online, đặc biệt là cách quản lý kết nối giữa nhiều người chơi trong cùng một phòng.
+- Nghiên cứu các dịch vụ AWS có thể sử dụng cho dự án, từ đó xác định những dịch vụ phù hợp để hỗ trợ hệ thống Multiplayer và quản lý dữ liệu trong tương lai.
+### Công việc vẽ sơ đồ kiến trúc
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Vẽ và chỉnh sửa sơ đồ kiến trúc dự án bằng app.diagrams.net.
+- Sắp xếp các AWS services, luồng Unity client, backend components và luồng kết nối multiplayer trong sơ đồ.
