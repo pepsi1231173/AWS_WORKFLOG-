@@ -1,14 +1,10 @@
-﻿---
+---
 title: "Blog 3 - GameLift server fleet với sidecar và state storage"
 date: 2026-06-30
 weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 # Thiết kế GameLift server fleet với sidecar và lưu trữ game state
 
 Link Facebook: [AWS Study Group Facebook permalink 2196945564403737](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2196945564403737)

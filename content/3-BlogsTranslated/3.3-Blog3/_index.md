@@ -1,14 +1,10 @@
-﻿---
+---
 title: "Blog 3 - GameLift server fleet with sidecars and state storage"
 date: 2026-06-30
 weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-**Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 # Designing GameLift server fleets with sidecars and game state storage
 
 Facebook source: [AWS Study Group Facebook permalink 2196945564403737](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2196945564403737)

@@ -1,14 +1,10 @@
 ---
-title: 'Week 5 Worklog'
+title: 'Week 5 - Auto Scaling Web Architecture and AWS Budgets'
 date: 2026-05-24
 weight: 5
 chapter: false
 pre: ' <b> 1.5. </b> '
 ---
-
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 ### Week 5 Objectives:
 

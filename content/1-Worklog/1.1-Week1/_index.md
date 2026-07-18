@@ -1,5 +1,5 @@
 ---
-title: 'Week 1 Worklog'
+title: 'Week 1 - AWS Fundamentals and FCJ Onboarding'
 date: 2026-04-20
 weight: 1
 chapter: false

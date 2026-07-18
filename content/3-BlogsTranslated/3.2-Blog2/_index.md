@@ -1,14 +1,10 @@
-﻿---
+---
 title: "Blog 2 - GameLift game sessions and CloudWatch logs"
 date: 2026-06-30
 weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-**Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 # Operating Amazon GameLift game sessions and CloudWatch logs
 
 Facebook source: [AWS Study Group Facebook permalink 2198027240962236](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2198027240962236)

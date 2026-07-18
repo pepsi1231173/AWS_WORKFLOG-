@@ -1,14 +1,10 @@
 ---
-title: 'Week 8 Worklog'
+title: 'Week 8 - Docker App Deployment and IAM Policy Management'
 date: 2026-06-14
 weight: 8
 chapter: false
 pre: ' <b> 1.8. </b> '
 ---
-
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 ### Week 8 Objectives:
 

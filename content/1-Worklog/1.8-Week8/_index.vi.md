@@ -6,10 +6,6 @@ chapter: false
 pre: ' <b> 1.8. </b> '
 ---
 
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
-
 ### Mục tiêu tuần 8:
 
 - Hoàn thành Lab 15: triển khai ứng dụng Docker với VPC, RDS, ECR và EC2.

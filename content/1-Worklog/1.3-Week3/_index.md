@@ -1,14 +1,10 @@
 ---
-title: 'Week 3 Worklog'
+title: 'Week 3 - AWS Account Access, EC2, and VPC Networking'
 date: 2026-05-04
 weight: 3
 chapter: false
 pre: ' <b> 1.3. </b> '
 ---
-
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 ### Week 3 Objectives:
 

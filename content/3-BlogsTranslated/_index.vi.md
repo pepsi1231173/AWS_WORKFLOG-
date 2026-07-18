@@ -1,14 +1,10 @@
-﻿---
+---
 title: "Các bài blogs đã dịch"
 date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
-
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 Phần này liệt kê 3 bài viết AWS Study Group được chọn để dịch trong báo cáo thực tập. Ba bài tập trung vào Amazon GameLift, FlexMatch, vận hành game session và kiến trúc server-side cho game online multiplayer.
 

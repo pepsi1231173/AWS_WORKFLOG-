@@ -5,11 +5,6 @@ weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 10:
 
 Thiết kế UI, viết logic cho player: thanh máu, ô hiện vũ khí hiện có, ô chi tiết vũ khí trước khi nhặt.
