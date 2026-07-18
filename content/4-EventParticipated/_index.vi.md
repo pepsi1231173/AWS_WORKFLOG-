@@ -39,7 +39,7 @@ Một buổi chia sẻ cộng đồng với các chủ đề về second brain, 
 
 ### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
 
-&emsp;**Thời gian:** Tháng 6/2026  
+&emsp;**Thời gian:** 06/06/2026  
 &emsp;**Vai trò:** Người tham dự  
 
 Một buổi chia sẻ cộng đồng về Docker, AWS WAF kết hợp machine learning, AWS WebSockets cho multiplayer systems, teamwork, Amazon Neptune cho GraphRAG và lộ trình phát triển lên Cloud/DevOps.
@@ -50,7 +50,7 @@ Một buổi chia sẻ cộng đồng về Docker, AWS WAF kết hợp machine l
 
 ### Event 4: FCAJ Community Day - AI Agents and DevOps
 
-&emsp;**Thời gian:** 06/06/2026  
+&emsp;**Thời gian:** 27/06/2026  
 &emsp;**Vai trò:** Người tham dự  
 
 Một buổi community day tập trung vào AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture và các câu chuyện phát triển nghề nghiệp trong lĩnh vực cloud.

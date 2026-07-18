@@ -39,7 +39,7 @@ A community sharing day with talks about second-brain systems, Amazon Q, CloudFr
 
 ### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
 
-&emsp;**Date:** June 2026  
+&emsp;**Date:** June 6, 2026  
 &emsp;**Role:** Attendee  
 
 A community sharing day about Docker, AWS WAF with machine learning, AWS WebSockets for multiplayer systems, teamwork, Amazon Neptune for GraphRAG, and the career path toward Cloud/DevOps.
@@ -50,7 +50,7 @@ A community sharing day about Docker, AWS WAF with machine learning, AWS WebSock
 
 ### Event 4: FCAJ Community Day - AI Agents and DevOps
 
-&emsp;**Date:** June 6, 2026  
+&emsp;**Date:** June 27, 2026  
 &emsp;**Role:** Attendee  
 
 A technical community day focused on AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture, and practical career stories from cloud practitioners.

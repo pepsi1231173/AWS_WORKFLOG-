@@ -11,7 +11,7 @@ pre: " <b> 4.4. </b> "
 ## Thông tin sự kiện
 
 **Tên sự kiện:** FCAJ Community Day - AI Agents and DevOps  
-**Thời gian:** 06/06/2026  
+**Thời gian:** 27/06/2026  
 **Vai trò:** Người tham dự
 
 ## Tổng quan

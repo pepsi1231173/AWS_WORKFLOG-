@@ -11,7 +11,7 @@ pre: " <b> 4.3. </b> "
 ## Thông tin sự kiện
 
 **Tên sự kiện:** FCAJ Community Day - Cloud, Security, DevOps and Teamwork  
-**Thời gian:** Tháng 6/2026  
+**Thời gian:** 06/06/2026  
 **Vai trò:** Người tham dự
 
 ## Tổng quan

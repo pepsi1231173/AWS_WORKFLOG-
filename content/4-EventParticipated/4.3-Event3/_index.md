@@ -11,7 +11,7 @@ pre: " <b> 4.3. </b> "
 ## Event Information
 
 **Event name:** FCAJ Community Day - Cloud, Security, DevOps and Teamwork  
-**Date:** June 2026  
+**Date:** June 6, 2026  
 **Role:** Attendee
 
 ## Overview

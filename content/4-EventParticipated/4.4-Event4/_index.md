@@ -11,7 +11,7 @@ pre: " <b> 4.4. </b> "
 ## Event Information
 
 **Event name:** FCAJ Community Day - AI Agents and DevOps  
-**Date:** June 6, 2026  
+**Date:** June 27, 2026  
 **Role:** Attendee
 
 ## Overview

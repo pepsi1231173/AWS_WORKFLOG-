@@ -26,7 +26,7 @@ Typically, and as a standard, a worklog is carried out over about 3 months (thro
 
 **Week 8:** [Docker App Deployment and IAM Policy Management](1.8-week8/)
 
-**Week 9:** [Unity Lobby and Multiplayer Systems](1.9-week9/)
+**Week 9:** [Lobby Map, 2D Collider Setup, and Multiplayer Systems](1.9-week9/)
 
 **Week 10:** [Player UI and Architecture Diagram](1.10-week10/)
 
