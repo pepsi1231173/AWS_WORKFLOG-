@@ -17,7 +17,7 @@ pre: '<b>1.1.</b>'
 
 | Thứ | Ngày       | Công việc                                                                             | Trạng thái | Ghi chú | Tài liệu                                |
 | --- | ---------- | ------------------------------------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
-| 2   | 20/04/2026 | - Làm quen thành viên FCJ <br> - Đọc nội quy thực tập - Tham gia talkshow             | ⬜         |         |                                         |
+| 2   | 17/04/2026 | - Làm quen thành viên FCJ <br> - Đọc nội quy thực tập - Tham gia talkshow             | ⬜         |         |                                         |
 | 3   | 21/04/2026 | - Tìm hiểu AWS cơ bản <br> + Compute <br> + Storage <br> + Networking <br> + Database | ⬜         |         | https://cloudjourney.awsstudygroup.com/ |
 | 4   | 22/04/2026 | - Tạo tài khoản AWS Free Tier <br> - Tìm hiểu Console & CLI <br> - Thực hành setup    | ⬜         |         | https://cloudjourney.awsstudygroup.com/ |
 | 5   | 23/04/2026 | - Tìm hiểu EC2 <br> + Instance types <br> + AMI <br> + EBS <br> - Kết nối SSH         | ⬜         |         | https://cloudjourney.awsstudygroup.com/ |

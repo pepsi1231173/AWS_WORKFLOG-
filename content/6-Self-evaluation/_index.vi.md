@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # Tự đánh giá
 
-Trong thời gian thực tập tại **Amazon Web Services Viet Nam Company Limited** trong chương trình **Workforce Bootcamp - First Cloud AI Journey**, từ **20/04/2026 đến 12/07/2026**, em đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã học ở trường cùng với các kiến thức mới về cloud vào môi trường thực tế.
+Trong thời gian thực tập tại **Amazon Web Services Viet Nam Company Limited** trong chương trình **Workforce Bootcamp - First Cloud AI Journey**, từ **17/04/2026 đến 12/07/2026**, em đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã học ở trường cùng với các kiến thức mới về cloud vào môi trường thực tế.
 
 Trong suốt quá trình thực tập, em thực hiện project **RoughLife** và hoàn thành các nội dung liên quan như worklog, proposal, dịch blog, báo cáo sự kiện và tài liệu workshop. Những công việc này giúp em cải thiện hiểu biết về AWS services, kiến trúc cloud, kỹ năng viết tài liệu kỹ thuật, teamwork và khả năng học theo project.
 

@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # Self-Assessment
 
-During my internship at **Amazon Web Services Viet Nam Company Limited** in the **Workforce Bootcamp - First Cloud AI Journey** program, from **20/04/2026 to 12/07/2026**, I had the opportunity to learn, practice, and apply both university knowledge and new cloud concepts in a practical environment.
+During my internship at **Amazon Web Services Viet Nam Company Limited** in the **Workforce Bootcamp - First Cloud AI Journey** program, from **17/04/2026 to 12/07/2026**, I had the opportunity to learn, practice, and apply both university knowledge and new cloud concepts in a practical environment.
 
 Throughout the internship, I worked on my **RoughLife** project and completed related learning activities such as worklogs, proposal writing, translated blogs, event reports, and workshop documentation. These tasks helped me improve my understanding of AWS services, cloud architecture, technical writing, teamwork, and project-based learning.
 

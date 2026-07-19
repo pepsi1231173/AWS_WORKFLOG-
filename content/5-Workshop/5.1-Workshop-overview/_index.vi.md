@@ -16,6 +16,10 @@ pre: ' <b> 5.1. </b> '
 
 - Về phần online, Rough Life được phát triển theo mô hình co-op tối đa 4 người chơi. Người chơi có thể tạo phòng, tham gia phòng và cùng nhau chiến đấu trong thời gian thực. Hệ thống online sử dụng Unity Netcode để đồng bộ nhân vật, vũ khí, nhặt item, trạng thái chiến đấu và các tương tác trong game. Ngoài ra, game còn có các hệ thống hỗ trợ như UI hiển thị vũ khí đang dùng, bảng mô tả vũ khí khi đi gần item, cơ chế chết/hồi sinh và chuyển cảnh giữa Lobby với phòng boss.
 
+#### Video demo
+
+[Mở video demo Rough Life](https://drive.google.com/file/d/1JuW5662_Hs_NfhDf037MAqUaIq6pE8v7/view?usp=sharing)
+
 #### Tổng quan về dự án game Rough Life
 
 **1 Menu**

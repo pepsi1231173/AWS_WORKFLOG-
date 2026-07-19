@@ -89,6 +89,8 @@ The event also reminded me that DevOps is not only about tools. DevOps is about 
 
 ## Event Photos
 
+![Event 4 - June 27, 2026](/images/4-EventParticipated/event4/27-06-2026.jpg)
+
 ![Event 4 photo 1](/images/4-EventParticipated/event4/1783681915336_488790801746558625_6340294277924690580_ecd951e61753c20fb2d75d8e4b7bc081.jpg)
 
 ![Event 4 photo 2](/images/4-EventParticipated/event4/1783683292382_488790801746558625_6340294277924690580_b085288870388ce5f8f093b64ffddd39.jpg)

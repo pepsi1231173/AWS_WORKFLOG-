@@ -17,7 +17,7 @@ pre: '<b>1.1.</b>'
 
 | Day | Date       | Tasks                                                                                    | Status | Notes | Resources                               |
 | --- | ---------- | ---------------------------------------------------------------------------------------- | ------ | ----- | --------------------------------------- |
-| Mon | 20/04/2026 | - Meet FCJ members <br> - Read internship rules - Join AWS Talkshow                      | ⬜     |       |                                         |
+| Mon | 17/04/2026 | - Meet FCJ members <br> - Read internship rules - Join AWS Talkshow                      | ⬜     |       |                                         |
 | Tue | 21/04/2026 | - Learn AWS fundamentals <br> + Compute <br> + Storage <br> + Networking <br> + Database | ⬜     |       | https://cloudjourney.awsstudygroup.com/ |
 | Wed | 22/04/2026 | - Create AWS Free Tier account <br> - Learn AWS Console & CLI <br> - Practice setup      | ⬜     |       | https://cloudjourney.awsstudygroup.com/ |
 | Thu | 23/04/2026 | - Learn EC2 basics <br> + Instance types <br> + AMI <br> + EBS <br> - SSH connection     | ⬜     |       | https://cloudjourney.awsstudygroup.com/ |

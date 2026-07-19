@@ -13,6 +13,10 @@ pre: ' <b> 5.1. </b> '
 - One of the highlights of Rough Life is the boss fight system. Players can enter boss rooms such as Phoenix, Slime, Centaur, and other bosses to fight. Each boss has its own mechanics, health bar, sound effects, background music, and rewards after being defeated. When a boss dies, the game can spawn rewards such as upgraded weapons to help players increase their strength.
 - For the online mode, Rough Life is developed as a co-op game that supports up to 4 players. Players can create rooms, join rooms, and fight together in real time. The online system uses Unity Netcode to synchronize characters, weapons, item pickups, combat states, and in-game interactions. In addition, the game also includes supporting systems such as the current weapon UI, weapon description panel when approaching items, death/revive mechanics, and scene transitions between the Lobby and boss rooms.
 
+### Demo Video
+
+[Open Rough Life demo video](https://drive.google.com/file/d/1JuW5662_Hs_NfhDf037MAqUaIq6pE8v7/view?usp=sharing)
+
 ### Overview of the Rough Life Game Project
 
 **1. Menu**
