@@ -1,0 +1,304 @@
+Usage budget
+https://us-east-1.console.aws.amazon.com/costmanagement/home#/budgets/details?name=LAB7-0704-UsageEC2Hours
+
+Skip to Main Content
+[Alt+S]
+Global
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+Billing and Cost Management
+Budgets
+Budget details
+Billing and Cost Management
+Budgets
+Budget details
+Billing and Cost Management
+Billing View
+New
+Home
+Getting Started
+Dashboards
+New
+FinOps Agent
+Preview
+Billing and Payments
+Bills
+Payments
+Credits
+Purchase Orders
+Cost and Usage Analysis
+Cost Explorer
+Cost Explorer Saved Reports
+Cost Anomaly Detection
+Free Tier
+Data Exports
+Carbon emissions
+Cost Organization
+Cost Categories
+Cost Allocation Tags
+Billing Conductor
+Budgets and Planning
+Budgets
+New
+Budgets Reports
+Pricing Calculator
+New
+Savings and Commitments
+Cost Optimization Hub
+New
+Savings Plans
+Overview
+Inventory
+Recommendations
+Purchase Analyzer
+New
+Utilization Report
+Coverage Report
+Purchase Savings Plans
+Cart
+0
+Reservations
+Overview
+Recommendations
+New
+Utilization Report
+Coverage Report
+Preferences and Settings
+Payment Preferences
+Billing Preferences
+Cost Management Preferences
+New
+Tax Settings
+Invoice Configuration
+Billing Transfer
+New
+Legacy Pages
+LAB7-0704-UsageEC2Hours
+ 
+Info
+Delete
+Edit
+Budget health
+ 
+Info
+Current vs. budgeted
+2915.99%
+Current usage: 291,599 Hrs of 10 Hrs
+Forecasted vs budgeted (MTD)
+30438.74%
+Forecasted usage: 3.043,874 Hrs of 10 Hrs
+Alerts
+ 
+Info
+Thresholds
+-
+Actions
+-
+View all alerts
+Details
+Health status
+Healthy
+Budget type
+Usage budget Info
+Usage amount
+10 Hrs
+Period
+Monthly
+Start date
+2026-07-01
+End date
+-
+Additional budget parameters
+Budget history
+Alerts
+Tags
+Billing View
+Budget history
+View in AWS Cost Explorer
+Usage (Hrs)
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+Jul 2025
+Aug 2025
+Sep 2025
+Oct 2025
+Nov 2025
+Dec 2025
+Jan 2026
+Feb 2026
+Mar 2026
+Apr 2026
+May 2026
+Jun 2026
+Actual usage
+Budgeted usage
+Monthly usage history
+Download as CSV
+Date
+	
+Actual
+	
+Budgeted
+	
+Budget variance (Hrs)
+	
+Budget variance (%)
+
+
+July 2026 (MTD)
+	
+291,599 Hrs
+	
+10 Hrs
+	
+-281,599 Hrs
+	
+-2,815.99%
+
+
+June 2026
+	
+1.440 Hrs
+	
+-
+	
+-
+	
+-
+
+
+May 2026
+	
+1.301,509 Hrs
+	
+-
+	
+-
+	
+-
+
+
+April 2026
+	
+335,975 Hrs
+	
+-
+	
+-
+	
+-
+
+
+March 2026
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+February 2026
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+January 2026
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+December 2025
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+November 2025
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+October 2025
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+September 2025
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+August 2025
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+
+
+July 2025
+	
+0 Hrs
+	
+-
+	
+-
+	
+-
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences
+Current vs. budgeted : 2915.9900000000002%
+Forecasted vs budgeted (MTD) : 30438.739999999994%
