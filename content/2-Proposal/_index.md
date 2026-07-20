@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
-
 # RoughLife Online Multiplayer Platform
 ## AWS GameLift Architecture for Unity NGO + UTP Multiplayer Gameplay
 
@@ -138,8 +136,6 @@ The architecture can become the baseline for future RoughLife multiplayer featur
 
 <!--
 Old proposal content kept below for reference and hidden from rendered output.
-
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
 
 # IoT Weather Platform for Lab Research
 ## A Unified AWS Serverless Solution for Real-Time Weather Monitoring

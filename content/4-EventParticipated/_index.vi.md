@@ -29,6 +29,7 @@ Workshop chia sẻ về thói quen học tập, prompt engineering, sự chuẩn
 ### Event 2: FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems
 
 &emsp;**Thời gian:** 23/05/2026  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 &emsp;**Vai trò:** Người tham dự  
 
 Một buổi chia sẻ cộng đồng với các chủ đề về second brain, Amazon Q, CloudFront, xây dựng sản phẩm trong hackathon, nền tảng hoạt động của LLM và enterprise multi-agent systems.
@@ -40,6 +41,7 @@ Một buổi chia sẻ cộng đồng với các chủ đề về second brain, 
 ### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
 
 &emsp;**Thời gian:** 06/06/2026  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 &emsp;**Vai trò:** Người tham dự  
 
 Một buổi chia sẻ cộng đồng về Docker, AWS WAF kết hợp machine learning, AWS WebSockets cho multiplayer systems, teamwork, Amazon Neptune cho GraphRAG và lộ trình phát triển lên Cloud/DevOps.
@@ -51,6 +53,7 @@ Một buổi chia sẻ cộng đồng về Docker, AWS WAF kết hợp machine l
 ### Event 4: FCAJ Community Day - AI Agents and DevOps
 
 &emsp;**Thời gian:** 27/06/2026  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 &emsp;**Vai trò:** Người tham dự  
 
 Một buổi community day tập trung vào AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture và các câu chuyện phát triển nghề nghiệp trong lĩnh vực cloud.

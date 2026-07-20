@@ -12,6 +12,7 @@ pre: " <b> 4.4. </b> "
 
 **Tên sự kiện:** FCAJ Community Day - AI Agents and DevOps  
 **Thời gian:** 27/06/2026  
+**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 **Vai trò:** Người tham dự
 
 ## Tổng quan

@@ -29,6 +29,7 @@ A workshop about learning habits, prompt engineering, job readiness, and the rol
 ### Event 2: FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems
 
 &emsp;**Date:** May 23, 2026  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 &emsp;**Role:** Attendee  
 
 A community sharing day with talks about second-brain systems, Amazon Q, CloudFront, hackathon product building, LLM fundamentals, and enterprise-grade multi-agent systems.
@@ -40,6 +41,7 @@ A community sharing day with talks about second-brain systems, Amazon Q, CloudFr
 ### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
 
 &emsp;**Date:** June 6, 2026  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 &emsp;**Role:** Attendee  
 
 A community sharing day about Docker, AWS WAF with machine learning, AWS WebSockets for multiplayer systems, teamwork, Amazon Neptune for GraphRAG, and the career path toward Cloud/DevOps.
@@ -51,6 +53,7 @@ A community sharing day about Docker, AWS WAF with machine learning, AWS WebSock
 ### Event 4: FCAJ Community Day - AI Agents and DevOps
 
 &emsp;**Date:** June 27, 2026  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 &emsp;**Role:** Attendee  
 
 A technical community day focused on AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture, and practical career stories from cloud practitioners.

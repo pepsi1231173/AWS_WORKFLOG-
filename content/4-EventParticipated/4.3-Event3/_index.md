@@ -12,6 +12,7 @@ pre: " <b> 4.3. </b> "
 
 **Event name:** FCAJ Community Day - Cloud, Security, DevOps and Teamwork  
 **Date:** June 6, 2026  
+**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 **Role:** Attendee
 
 ## Overview
