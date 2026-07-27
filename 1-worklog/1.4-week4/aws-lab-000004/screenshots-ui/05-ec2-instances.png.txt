@@ -1,0 +1,55 @@
+3/4/5 EC2 instances for Windows, Linux, and custom AMI workflow
+https://ap-southeast-1.console.aws.amazon.com/ec2/home?region=ap-southeast-1#Instances:search=LAB4-0705
+
+Skip to Main Content
+[Alt+S]
+1
+Asia Pacific (Singapore)
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+EC2
+Instances
+EC2
+Instances
+EC2
+Dashboard
+AWS Global View
+Events
+Instances
+Instances
+Instance Types
+Launch Templates
+Spot Requests
+Savings Plans
+Reserved Instances
+Dedicated Hosts
+Capacity Reservations
+Capacity Manager
+New
+Images
+AMIs
+AMI Catalog
+Elastic Block Store
+Volumes
+Snapshots
+Lifecycle Manager
+Network & Security
+Security Groups
+Elastic IPs
+Placement Groups
+Key Pairs
+Network Interfaces
+Load Balancing
+Load Balancers
+Target Groups
+Trust Stores
+Auto Scaling
+Auto Scaling Groups
+Settings
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences

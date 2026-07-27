@@ -1,0 +1,134 @@
+RI utilization budget
+https://us-east-1.console.aws.amazon.com/costmanagement/home#/budgets/details?name=LAB7-0704-RIUtilization
+
+Skip to Main Content
+[Alt+S]
+Global
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+Billing and Cost Management
+Budgets
+Budget details
+Billing and Cost Management
+Budgets
+Budget details
+Billing and Cost Management
+Billing View
+New
+Home
+Getting Started
+Dashboards
+New
+FinOps Agent
+Preview
+Billing and Payments
+Bills
+Payments
+Credits
+Purchase Orders
+Cost and Usage Analysis
+Cost Explorer
+Cost Explorer Saved Reports
+Cost Anomaly Detection
+Free Tier
+Data Exports
+Carbon emissions
+Cost Organization
+Cost Categories
+Cost Allocation Tags
+Billing Conductor
+Budgets and Planning
+Budgets
+New
+Budgets Reports
+Pricing Calculator
+New
+Savings and Commitments
+Cost Optimization Hub
+New
+Savings Plans
+Overview
+Inventory
+Recommendations
+Purchase Analyzer
+New
+Utilization Report
+Coverage Report
+Purchase Savings Plans
+Cart
+0
+Reservations
+Overview
+Recommendations
+New
+Utilization Report
+Coverage Report
+Preferences and Settings
+Payment Preferences
+Billing Preferences
+Cost Management Preferences
+New
+Tax Settings
+Invoice Configuration
+Billing Transfer
+New
+Legacy Pages
+LAB7-0704-RIUtilization
+ 
+Info
+Delete
+Edit
+Budget health
+ 
+Info
+Current vs. budgeted
+0.00%
+Current usage: - of 100.00%
+Alerts
+ 
+Info
+Thresholds
+-
+View all alerts
+Details
+Health status
+Healthy
+Budget type
+RI utilization budget Info
+Utilization threshold
+-
+Period
+Monthly
+Additional budget parameters
+Budget history
+Alerts
+Tags
+Billing View
+Budget history
+View in AWS Cost Explorer
+No data
+There is no data to display
+Monthly utilization history
+Download as CSV
+Date
+	
+Actual
+	
+Budgeted
+	
+Budget variance (%)
+
+
+No history
+
+No budget history
+
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences
+Current vs. budgeted : 0%
+No data There is no data to display

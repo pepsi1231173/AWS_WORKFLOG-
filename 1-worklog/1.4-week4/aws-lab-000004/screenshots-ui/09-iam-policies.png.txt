@@ -1,0 +1,136 @@
+IAM policies filtered by LAB4-0705
+
+Skip to Main Content
+[Alt+S]
+1
+Global
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+IAM
+Policies
+IAM
+Policies
+Identity and Access Management (IAM)
+Dashboard
+Access Management
+Roles
+Policies
+IAM users
+IAM user groups
+Identity providers
+Account settings
+Root access management
+Temporary delegation requests
+Access reports
+Access Analyzer
+Resource analysis
+Unused access
+Analyzer settings
+Credential report
+Organization activity
+Service control policies
+Resource control policies
+Related consoles
+IAM Identity Center
+AWS Organizations
+Policies (1525)
+ 
+Info
+Actions
+Delete
+Create policy
+
+A policy is an object in AWS that defines permissions.
+
+Filter by Type
+All types
+
+6 matches
+
+1
+Select data for
+	
+Policy name
+	
+Type
+	
+Used as
+	
+Description
+Select data for
+	
+Policy name
+	
+Type
+	
+Used as
+	
+Description
+
+
+	
+LAB4-0705-LimitEC2Family
+	
+Customer managed
+	
+Permissions policy (1)
+	
+-
+
+
+	
+LAB4-0705-LimitEC2Size
+	
+Customer managed
+	
+Permissions policy (1)
+	
+-
+
+
+	
+LAB4-0705-RestrictDeleteByIP
+	
+Customer managed
+	
+Permissions policy (1)
+	
+-
+
+
+	
+LAB4-0705-RestrictDeleteByTime
+	
+Customer managed
+	
+Permissions policy (1)
+	
+-
+
+
+	
+LAB4-0705-RestrictEBSVolumeType
+	
+Customer managed
+	
+Permissions policy (1)
+	
+-
+
+
+	
+LAB4-0705-RestrictRegion
+	
+Customer managed
+	
+Permissions policy (1)
+	
+-
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences
+Table is displaying results from item number 1 to item number 6, and there are 6 items to view

@@ -1,0 +1,88 @@
+2.1/2.2 VPC Linux and Windows created with LAB4 prefix
+https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-southeast-1#vpcs:search=LAB4-0705
+
+Skip to Main Content
+[Alt+S]
+1
+Asia Pacific (Singapore)
+Nguyen Thanh Cong (827257544048)
+Nguyen Thanh Cong
+VPC
+Your VPCs
+VPC
+Your VPCs
+VPC dashboard
+AWS Global View
+Filter by VPC
+Virtual private cloud
+Your VPCs
+Subnets
+Route tables
+Internet gateways
+Egress-only internet gateways
+DHCP option sets
+Elastic IPs
+Managed prefix lists
+NAT gateways
+Peering connections
+Route servers
+Security
+Network ACLs
+Security groups
+PrivateLink and Lattice
+Getting started
+Endpoints
+Endpoint services
+Service networks
+Lattice services
+Resource configurations
+Resource gateways
+Target groups
+Domain verifications
+New
+DNS firewall
+Rule groups
+Domain lists
+Network Firewall
+Firewalls
+Firewall policies
+Network Firewall rule groups
+TLS inspection configurations
+Network Firewall resource groups
+VPC endpoint associations
+Container associations
+Virtual private network (VPN)
+Customer gateways
+Virtual private gateways
+Site-to-Site VPN Concentrators
+Site-to-Site VPN connections
+Client VPN endpoints
+AWS Verified Access
+Verified Access instances
+Verified Access trust providers
+Verified Access groups
+Verified Access endpoints
+Transit gateways
+Transit gateways
+Transit gateway attachments
+Transit gateway policy tables
+Transit gateway route tables
+Transit gateway multicast
+Metering policies
+Traffic Mirroring
+Mirror sessions
+Mirror targets
+Mirror filters
+Network Manager
+Cloud WAN
+VPC IP Address Manager
+AWS Firewall Manager
+Settings
+New
+CloudShell
+Feedback
+Console Mobile App
+© 2026, Amazon Web Services, Inc. or its affiliates.
+Privacy
+Terms
+Cookie preferences
