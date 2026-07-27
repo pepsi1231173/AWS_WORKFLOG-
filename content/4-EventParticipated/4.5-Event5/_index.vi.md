@@ -12,57 +12,62 @@ pre: " <b> 4.5. </b> "
 
 **Tên sự kiện:** Final Presentation - RoughLife Online Multiplayer Platform  
 **Thời gian:** 25/07/2026  
-**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
+**Địa điểm:** Tầng 36, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 **Vai trò:** Người thuyết trình  
 
 ## Tổng quan
 
-Đây là buổi thuyết trình cuối kỳ cho dự án thực tập của em. Trong buổi này, em trình bày dự án RoughLife Online Multiplayer Platform, một game hành động phiêu lưu 2D góc nhìn từ trên xuống được phát triển bằng Unity và định hướng kết hợp các dịch vụ AWS để hỗ trợ online multiplayer, đăng nhập người chơi, quản lý phòng, game session, logging, monitoring và triển khai bản phát hành.
+Đây là buổi thuyết trình cuối kỳ cho dự án thực tập RoughLife Online Multiplayer Platform. Buổi thuyết trình giúp em tổng kết ý tưởng dự án, giải thích các tính năng chính của game, trình bày tiến độ phát triển và liên kết phần triển khai Unity với các dịch vụ AWS trong kiến trúc đề xuất.
 
-Nội dung thuyết trình tổng kết các phần em đã hoàn thành trong quá trình thực tập: các bài lab AWS, tài liệu workshop, thiết kế UI game, vẽ map, setup collider, luồng lobby, luồng online room và kiến trúc cloud dự kiến cho hệ thống multiplayer.
+Nội dung buổi trình bày tập trung vào quá trình dự án được hình thành trong kỳ thực tập: từ việc học nền tảng AWS và hoàn thành các bài lab, đến thiết kế gameplay cho RoughLife, xây dựng các màn hình UI, chuẩn bị map 2D top-down, setup collider, thiết kế lobby và room flow, sau đó lập kế hoạch backend architecture cho chế độ online multiplayer.
 
 ## Mục tiêu thuyết trình
 
 - Giới thiệu ý tưởng game RoughLife và định hướng gameplay chính.
-- Giải thích kiến trúc hệ thống và lý do lựa chọn các dịch vụ AWS.
-- Trình bày luồng người chơi từ menu, lobby, tạo phòng, tham gia phòng đến gameplay.
-- Tổng kết tiến độ triển khai đã hoàn thành trong quá trình thực tập.
-- Chia sẻ demo, hình ảnh minh chứng và tài liệu thuyết trình hỗ trợ.
+- Trình bày gameplay flow, player UI, map setup, lobby UI và online room flow.
+- Giải thích cách Unity NGO và UTP có thể hỗ trợ multiplayer gameplay.
+- Giải thích lý do sử dụng AWS cho authentication, room APIs, hosting, monitoring và deployment.
+- Tổng kết tiến độ thực tập, kết quả dự án và các phần cần cải thiện tiếp theo.
 
 ## Nội dung chính
 
-### Bối cảnh dự án
+### Giới thiệu dự án
 
-RoughLife là một dự án game hành động phiêu lưu 2D góc nhìn từ trên xuống. Người chơi điều khiển nhân vật di chuyển trên map, sử dụng vũ khí, chiến đấu với quái và vào các phòng boss. Game được định hướng hỗ trợ cả chế độ offline và online co-op multiplayer.
+Em giới thiệu RoughLife là một game hành động phiêu lưu 2D góc nhìn từ trên xuống. Dự án tập trung vào player movement, sử dụng vũ khí, chiến đấu với quái, vào boss room, chuyển scene và định hướng hỗ trợ online co-op multiplayer trong tương lai.
 
-### Tính năng game
+### Game UI và gameplay demo
 
-- Menu chính gồm Online, Offline, Setting và Exit.
-- Lobby scene với Join Room panel, nhập room code, Start Game và luồng vào phòng.
-- Map 2D top-down có khu vực di chuyển, vật cản và collider boundaries.
-- Player UI gồm thanh máu, avatar, weapon slot và weapon information panel.
-- Luồng boss battle gồm chọn vũ khí, tấn công, giảm máu boss, nhận thưởng và chuyển cảnh.
+Em trình bày các màn hình và luồng chính của game: main menu, lựa chọn Online/Offline, lobby screen, room entry panel, player health UI, avatar display, weapon slot, weapon information panel, map 2D, collider setup và tương tác trong boss battle.
 
-### Kiến trúc AWS
+### Multiplayer và kiến trúc AWS
 
-Kiến trúc đề xuất sử dụng các dịch vụ AWS để hỗ trợ hệ thống multiplayer an toàn và có khả năng mở rộng. Amazon Cognito dùng cho định danh người chơi, DynamoDB lưu trạng thái phòng và người chơi, Lambda và API Gateway cung cấp room APIs, Amazon GameLift quản lý dedicated game hosting, CloudWatch hỗ trợ logs và monitoring, SNS gửi cảnh báo vận hành, còn S3/CloudFront hỗ trợ phân phối bản phát hành.
+Phần kiến trúc giải thích cách Unity Netcode for GameObjects và Unity Transport có thể kết hợp với các dịch vụ AWS. Amazon Cognito hỗ trợ xác thực người chơi, DynamoDB lưu room/player state, Lambda và API Gateway cung cấp room management APIs, Amazon GameLift hỗ trợ dedicated game hosting, S3 và CloudFront hỗ trợ phát hành bản build, còn CloudWatch/SNS hỗ trợ monitoring và alerting.
 
-### Demo và minh chứng
+### Tiến độ thực tập và minh chứng
 
-Nội dung demo thể hiện luồng hoạt động chính của dự án, các hình ảnh giao diện RoughLife, sơ đồ kiến trúc và tiến độ đã hoàn thành trong quá trình thực tập. Các hình ảnh bên dưới ghi lại không khí buổi thuyết trình, slide, phần trao đổi và hoạt động chia sẻ dự án.
+Buổi trình bày cũng tổng kết worklog thực tập, các bài lab AWS, tài liệu workshop, event participation, website báo cáo và minh chứng dự án. Phần này giúp thể hiện quá trình xây dựng dự án theo từng bước, không chỉ dừng lại ở kết quả cuối cùng.
 
 ## Bài học rút ra
 
-- Một dự án game multiplayer cần kết hợp cả thiết kế gameplay và kế hoạch backend architecture.
-- Unity xử lý trải nghiệm phía người chơi, còn cloud services hỗ trợ authentication, matchmaking, room state, hosting, logging và monitoring.
-- AWS có thể được kết hợp thành một kiến trúc thực tế cho dự án game sinh viên nếu chia phạm vi thành từng module nhỏ.
-- Việc chuẩn bị final presentation giúp em kết nối phần kỹ thuật, tài liệu, hình ảnh minh chứng và demo flow thành một báo cáo hoàn chỉnh.
+- Một dự án game multiplayer cần kết hợp cả gameplay design và backend architecture planning.
+- Unity đảm nhiệm trải nghiệm phía người chơi, còn AWS hỗ trợ identity, data, APIs, hosting, monitoring và deployment.
+- Một kiến trúc cloud phức tạp sẽ dễ trình bày hơn khi được chia thành các module nhỏ như authentication, room management, hosting và operations.
+- Final presentation không chỉ là phần demo mà còn là cách chứng minh tiến độ thông qua tài liệu, hình ảnh, sơ đồ kiến trúc và phần tự đánh giá.
+- Phản hồi từ buổi thuyết trình giúp em nhìn rõ hơn các phần cần cải thiện tiếp theo của dự án.
 
 ## Cảm nhận cá nhân
 
-Buổi final presentation giúp em nhìn lại toàn bộ quá trình thực tập, từ những bài lab AWS đầu tiên đến phần tài liệu và kiến trúc dự án RoughLife cuối kỳ. Đây cũng là cơ hội để em trình bày dự án rõ ràng hơn, liên kết các tính năng game với dịch vụ AWS và nhận phản hồi về cả kiến trúc kỹ thuật lẫn cách trình bày.
+Buổi final presentation có ý nghĩa vì nó tổng hợp lại toàn bộ những phần em đã thực hiện trong kỳ thực tập. Thay vì chỉ liệt kê các công việc đã hoàn thành, em cần giải thích lý do chọn đề tài, cách game vận hành, vì sao sử dụng từng dịch vụ AWS và cách các phần trong hệ thống kết nối với nhau.
 
-Sau buổi này, em tự tin hơn trong việc thuyết trình sản phẩm kỹ thuật, tổ chức minh chứng dự án và giải thích lý do sử dụng từng dịch vụ. Đây cũng là checkpoint quan trọng để em xác định các phần cần cải thiện tiếp theo như hoàn thiện gameplay demo, làm rõ online flow và tiếp tục tinh chỉnh kế hoạch cloud deployment.
+Thông qua buổi này, em tự tin hơn trong việc trình bày sản phẩm kỹ thuật và tổ chức minh chứng dự án. Đây cũng là checkpoint quan trọng để em xác định các hướng cải thiện tiếp theo cho RoughLife, bao gồm hoàn thiện gameplay demo, cải thiện online room flow, củng cố multiplayer backend và tiếp tục tinh chỉnh kế hoạch cloud deployment.
+
+## Ứng dụng thực tế
+
+- Tiếp tục cải thiện gameplay demo và UI flow của RoughLife.
+- Tinh chỉnh lobby và room management logic cho online multiplayer.
+- Kết nối Unity client rõ ràng hơn với backend APIs.
+- Cải thiện monitoring, logging và kế hoạch deployment cho kiến trúc AWS.
+- Sử dụng phản hồi từ final presentation để hoàn thiện báo cáo thực tập và tài liệu dự án.
 
 ## Hình ảnh sự kiện
 

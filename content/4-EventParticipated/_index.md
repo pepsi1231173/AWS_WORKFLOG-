@@ -65,9 +65,9 @@ A technical community day focused on AI agents, voice AI, Amazon Q, DevOps autom
 ### Event 5: Final Presentation - RoughLife Online Multiplayer Platform
 
 &emsp;**Date:** July 25, 2026  
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 &emsp;**Role:** Presenter  
 
-A final presentation session where I introduced the RoughLife Online Multiplayer Platform, summarized the internship result, demonstrated the project flow, and shared the AWS services used in the system architecture.
+A final presentation session where I shared my internship project, RoughLife Online Multiplayer Platform, including the game concept, Unity implementation, AWS architecture, demo flow, and lessons learned during the internship.
 
 [Open Event 5](4.5-Event5/)

@@ -91,7 +91,9 @@
           <div id="chapter">
         {{ end }}
         <div id="body-inner">
-          {{if and (not .IsHome) (not .Params.chapter) }}
+          {{ $rawContent := trim .RawContent "\n\r\t " }}
+          {{ $contentStartsWithTitle := hasPrefix $rawContent "# " }}
+          {{if and (not .IsHome) (not .Params.chapter) (not $contentStartsWithTitle) }}
             <h1>
               {{ if eq .Kind "taxonomy" }}
                 {{.Kind}} ::

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems"
 date: 2024-01-01
 weight: 2
@@ -17,24 +17,24 @@ pre: " <b> 4.2. </b> "
 
 ## Tổng quan
 
-FCAJ Community Day l?n n�y quy t? nhi?u speaker v?i c�c g�c nh�n kh�c nhau v? h? th?ng h?c t?p c� nh�n, ?ng d?ng AI, cloud delivery, n?n t?ng ho?t d?ng c?a LLM, qu� tr�nh x�y d?ng s?n ph?m trong hackathon v� ki?n tr�c AI trong doanh nghi?p. Thay v� ch? t?p trung v�o m?t ch? d? h?p, s? ki?n gi?ng nhu m?t ng�y h?c c� d?ng, noi m?i ph?n chia s? m? ra m?t hu?ng t�m hi?u m?i.
+FCAJ Community Day lần này quy tụ nhiều speaker với các góc nhìn khác nhau về hệ thống học tập cá nhân, ứng dụng AI, cloud delivery, nền tảng hoạt động của LLM, quá trình xây dựng sản phẩm trong hackathon và kiến trúc AI trong doanh nghiệp. Thay vì chỉ tập trung vào một chủ đề hẹp, sự kiện giống như một ngày học cô đọng, nơi mỗi phần chia sẻ mở ra một hướng tìm hiểu mới.
 
 Sự kiện có ý nghĩa với em vì nó cho thấy cloud và AI không phải là những kỹ năng tách rời. Một kỹ sư tốt cần biết tổ chức kiến thức, hiểu nền tảng hạ tầng, đánh giá hành vi của AI và chuyển ý tưởng kỹ thuật thành sản phẩm mà người dùng có thể sử dụng được.
 
 ## Các phần chia sẻ chính
 
-- **Anh T?nh - Build Second Brain:** Chia s? c�ch x�y d?ng h? th?ng qu?n l� tri th?c c� nh�n d? ki?n th?c du?c luu l?i, li�n k?t v� t�i s? d?ng theo th?i gian.
+- **Anh Tịnh - Build Second Brain:** Chia sẻ cách xây dựng hệ thống quản lý tri thức cá nhân để kiến thức được lưu lại, liên kết và tái sử dụng theo thời gian.
 - **Hải Anh - Friendly AI Assistant with Amazon Q:** Giới thiệu cách AI assistant hỗ trợ công việc hằng ngày và cải thiện trải nghiệm tương tác khi được gắn với workflow rõ ràng.
 - **Thịnh - From Edge to Origin: CloudFront as Your Foundation:** Giải thích cách CloudFront hỗ trợ hiệu năng, độ tin cậy, bảo mật và global delivery.
 - **Team VIB - 36 hours with LotusHacks: Building UTMorpho from Idea to Reality:** Chia sẻ bài học từ việc biến một ý tưởng thành sản phẩm hoạt động được trong áp lực hackathon.
-- **��o �?c - Deep Dive Talk: How LLM Actually Works:** Gi?i th�ch c�ch language model x? l� ng? c?nh, d? do�n d?u ra v� v� sao ngu?i d�ng c?n d�nh gi� c�u tr? l?i c?a AI c?n th?n.
+- **Đào Đức - Deep Dive Talk: How LLM Actually Works:** Giải thích cách language model xử lý ngữ cảnh, dự đoán đầu ra và vì sao người dùng cần đánh giá câu trả lời của AI cẩn thận.
 - **Cát Vy - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring:** Trình bày cách nhiều AI agents phối hợp trong một workflow nghiệp vụ có cấu trúc.
 
 ## Những điều học được
 
-### Qu?n l� tri th?c c� nh�n
+### Quản lý tri thức cá nhân
 
-Ph?n second brain gi�p em nh?n ra r?ng vi?c h?c c� gi� tr? hon khi ghi ch� du?c li�n k?t v?i nhau. Thay v� luu th�ng tin ch? d? d�ng ng?n h?n, em n�n x�y d?ng h? th?ng gi�p m�nh xem l?i � tu?ng, n?i c�c ch? d? li�n quan v� t�i s? d?ng ki?n th?c trong b�o c�o, workshop v� project.
+Phần second brain giúp em nhận ra rằng việc học có giá trị hơn khi ghi chú được liên kết với nhau. Thay vì lưu thông tin chỉ để dùng ngắn hạn, em nên xây dựng hệ thống giúp mình xem lại ý tưởng, nối các chủ đề liên quan và tái sử dụng kiến thức trong báo cáo, workshop và project.
 
 ### AI assistant trong workflow thực tế
 
@@ -44,24 +44,24 @@ Các use case về Amazon Q và AI assistant cho thấy AI chỉ thật sự h�
 
 Phần CloudFront nhắc em rằng edge service không chỉ là cache file tĩnh. Nó còn ảnh hưởng đến độ trễ, tính sẵn sàng, bảo mật, chi phí và trải nghiệm người dùng. Chủ đề này giúp em kết nối kiến thức networking với việc triển khai sản phẩm thật.
 
-### X�y d?ng s?n ph?m trong th?i gian ng?n
+### Xây dựng sản phẩm trong thời gian ngắn
 
-C�u chuy?n hackathon cho th?y t?m quan tr?ng c?a vi?c uu ti�n. Khi th?i gian ng?n, team ph?i quy?t d?nh di?u g� quan tr?ng nh?t, chia vi?c r� r�ng v� giao ti?p nhanh. Em hi?u hon r?ng m?t s?n ph?m ch?y du?c thu?ng d?n t? nhi?u quy?t d?nh nh? nhung t?p trung.
+Câu chuyện hackathon cho thấy tầm quan trọng của việc ưu tiên. Khi thời gian ngắn, team phải quyết định điều gì quan trọng nhất, chia việc rõ ràng và giao tiếp nhanh. Em hiểu hơn rằng một sản phẩm chạy được thường đến từ nhiều quyết định nhỏ nhưng tập trung.
 
 ### LLM fundamentals và multi-agent systems
 
-C�c ph?n v? LLM v� multi-agent gi�p em d�ng AI c� tr�ch nhi?m hon. Khi hi?u c�ch LLM t?o c�u tr? l?i, em d? nh?n ra hallucination, d?t c�u h?i ti?p theo t?t hon v� thi?t k? h? th?ng noi m?i agent c� vai tr� v� gi?i h?n r� r�ng.
+Các phần về LLM và multi-agent giúp em dùng AI có trách nhiệm hơn. Khi hiểu cách LLM tạo câu trả lời, em dễ nhận ra hallucination, đặt câu hỏi tiếp theo tốt hơn và thiết kế hệ thống nơi mỗi agent có vai trò và giới hạn rõ ràng.
 
-## C?m nh?n c� nh�n
+## Cảm nhận cá nhân
 
 Sự kiện giúp em có góc nhìn rộng hơn về mối liên hệ giữa học tập, hạ tầng cloud và thiết kế hệ thống AI. Các phần chia sẻ không chỉ mang tính kỹ thuật, mà còn cho thấy cách các anh chị kỹ sư suy nghĩ, tổ chức thông tin và truyền đạt ý tưởng.
 
-Sau s? ki?n, em mu?n c?i thi?n c�ch qu?n l� ghi ch� v� ki?n th?c project c?a m�nh. Em cung quan t�m hon d?n CloudFront v� multi-agent systems v� c? hai d?u c� t�nh ?ng d?ng cao khi x�y d?ng ?ng d?ng scalable v� workflow d�ng AI.
+Sau sự kiện, em muốn cải thiện cách quản lý ghi chú và kiến thức project của mình. Em cũng quan tâm hơn đến CloudFront và multi-agent systems vì cả hai đều có tính ứng dụng cao khi xây dựng ứng dụng scalable và workflow dùng AI.
 
 ## Giá trị kết nối cộng đồng
 
 - Học từ nhiều diễn giả khác nhau trong cộng đồng FCAJ.
-- Quan s�t c�ch gi?i th�ch ch? d? k? thu?t th�ng qua demo, c�u chuy?n v� v� d? s?n ph?m.
+- Quan sát cách giải thích chủ đề kỹ thuật thông qua demo, câu chuyện và ví dụ sản phẩm.
 - Kết nối các chủ đề AI với dịch vụ AWS và use case thực tế.
 - Thấy rõ vai trò của cộng đồng trong việc giúp người học khám phá hướng phát triển nhanh hơn.
 
@@ -69,8 +69,8 @@ Sau s? ki?n, em mu?n c?i thi?n c�ch qu?n l� ghi ch� v� ki?n th?c project
 
 - Tổ chức lại ghi chú thực tập theo cấu trúc second brain rõ hơn.
 - Ôn lại CloudFront và edge delivery để phục vụ nội dung workshop sau này.
-- Luy?n d�nh gi� c�u tr? l?i c?a LLM thay v� ch?p nh?n ngay l?p t?c.
-- T�m hi?u c�c pattern multi-agent don gi?n v� c�ch ph�n chia vai tr� trong workflow AI.
+- Luyện đánh giá câu trả lời của LLM thay vì chấp nhận ngay lập tức.
+- Tìm hiểu các pattern multi-agent đơn giản và cách phân chia vai trò trong workflow AI.
 
 ## Hình ảnh sự kiện
 

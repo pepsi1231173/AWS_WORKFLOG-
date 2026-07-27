@@ -12,57 +12,62 @@ pre: " <b> 4.5. </b> "
 
 **Event name:** Final Presentation - RoughLife Online Multiplayer Platform  
 **Date:** July 25, 2026  
-**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+**Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 **Role:** Presenter  
 
 ## Overview
 
-This event was the final presentation session for my internship project. I presented the RoughLife Online Multiplayer Platform, a 2D top-down action-adventure game project built with Unity and connected with AWS services for online multiplayer features, player authentication, room management, game session handling, monitoring, and deployment support.
+This event was the final presentation session for my internship project, RoughLife Online Multiplayer Platform. The presentation gave me the chance to summarize the project idea, explain the main game features, demonstrate the development progress, and connect the Unity implementation with the AWS services used in the proposed architecture.
 
-The presentation summarized what I had completed during the internship: AWS labs, workshop documentation, game UI design, map setup, collider setup, lobby flow, online room flow, and the cloud architecture planned for the multiplayer system.
+The session focused on how the project evolved during the internship: from learning AWS fundamentals and completing labs, to designing the RoughLife gameplay flow, building UI screens, preparing the 2D top-down map, setting up colliders, designing the lobby and room flow, and planning the backend architecture for online multiplayer.
 
 ## Presentation Objectives
 
 - Introduce the RoughLife game idea and the main gameplay direction.
-- Explain the system architecture and why AWS services are suitable for the project.
-- Show the player flow from menu, lobby, room creation, room joining, and gameplay.
-- Present the implementation progress completed during the internship.
-- Share demo evidence, screenshots, and supporting presentation materials.
+- Present the gameplay flow, player UI, map setup, lobby UI, and online room flow.
+- Explain how Unity NGO and UTP can support multiplayer gameplay.
+- Explain why AWS services are suitable for authentication, room APIs, hosting, monitoring, and deployment.
+- Summarize the internship progress, project results, and remaining improvements.
 
-## Main Presentation Content
+## Main Sessions
 
-### Project Background
+### Project Introduction
 
-RoughLife is a 2D top-down action-adventure game project. Players control a character, move around the map, collect or use weapons, fight monsters, and enter boss rooms. The game is designed to support both offline gameplay and online co-op multiplayer.
+I introduced RoughLife as a 2D top-down action-adventure game. The project focuses on player movement, weapon usage, monster combat, boss rooms, scene transitions, and future online co-op multiplayer support. This helped the audience understand the game concept before moving into the technical architecture.
 
-### Game Features
+### Game UI and Gameplay Demo
 
-- Main menu with Online, Offline, Setting, and Exit options.
-- Lobby scene with Join Room panel, room code input, Start Game button, and player entry flow.
-- 2D top-down map layout with movement areas, obstacles, and collider boundaries.
-- Player UI including health bar, avatar, weapon slot, and weapon information panel.
-- Boss battle flow with weapons, attacks, health reduction, rewards, and scene transitions.
+I presented the main UI screens and gameplay flow: the main menu, online/offline options, lobby screen, room entry panel, player health UI, avatar display, weapon slot, weapon information panel, 2D map layout, collider setup, and boss battle interaction.
 
-### AWS Architecture
+### Multiplayer and AWS Architecture
 
-The proposed platform uses AWS services to support secure and scalable multiplayer gameplay. Amazon Cognito is used for player identity, DynamoDB stores room and player state, Lambda and API Gateway provide room APIs, Amazon GameLift manages dedicated game hosting, CloudWatch supports logs and monitoring, SNS sends operational alerts, and S3/CloudFront support static release distribution.
+The architecture section explained how Unity Netcode for GameObjects and Unity Transport can be combined with AWS services. Amazon Cognito supports player authentication, DynamoDB stores room and player state, Lambda and API Gateway provide room management APIs, Amazon GameLift supports dedicated game hosting, S3 and CloudFront support release distribution, and CloudWatch/SNS support monitoring and alerting.
 
-### Demo and Evidence
+### Internship Progress and Evidence
 
-The demo materials showed the main project flow, screenshots of the RoughLife interface, architecture diagrams, and the progress completed during the internship. The images below document the presentation day, including the event environment, presentation slides, discussion moments, and project sharing activities.
+The presentation also summarized the internship worklog, AWS labs, workshop documentation, event participation, website deployment, and project evidence. This part showed how the project was built step by step instead of only showing the final result.
 
 ## Key Takeaways
 
 - A multiplayer game project needs both gameplay design and backend architecture planning.
-- Unity handles the player-facing experience, but cloud services are important for authentication, matchmaking, room state, hosting, logging, and monitoring.
-- AWS services can be combined into a practical architecture for a student game project, especially when the scope is divided into small modules.
-- Preparing a final presentation helped me connect technical implementation, documentation, screenshots, and demo flow into one complete report.
+- Unity is responsible for the player-facing experience, while AWS services support identity, data, APIs, hosting, monitoring, and deployment.
+- A complex cloud architecture becomes easier to explain when it is divided into smaller modules such as authentication, room management, hosting, and operations.
+- A final presentation is not only a demo; it is also a way to prove progress through documentation, screenshots, architecture diagrams, and reflection.
+- Feedback from the presentation helped me see which parts of the project should be improved next.
 
 ## Personal Reflection
 
-This final presentation helped me review the full internship journey from the first AWS labs to the final RoughLife project documentation. It also gave me a chance to explain the project clearly, connect the game features with AWS services, and receive feedback on both the technical architecture and the presentation structure.
+This final presentation was meaningful because it brought together everything I had worked on during the internship. Instead of only listing completed tasks, I needed to explain the reason behind the project, how the game flow works, why each AWS service is used, and how the different parts connect into one system.
 
-Through this event, I became more confident in presenting technical work, organizing project evidence, and explaining why each service is used. It was also a good checkpoint to identify what can be improved next, such as polishing the gameplay demo, strengthening the online flow, and continuing to refine the cloud deployment plan.
+Through this event, I became more confident in presenting technical work and organizing evidence clearly. It also helped me identify the next improvements for RoughLife, including polishing the gameplay demo, improving the online room flow, strengthening the multiplayer backend, and continuing to refine the cloud deployment plan.
+
+## Practical Applications
+
+- Continue improving the RoughLife gameplay demo and UI flow.
+- Refine the lobby and room management logic for online multiplayer.
+- Connect the Unity client more clearly with backend APIs.
+- Improve monitoring, logging, and deployment planning for the AWS architecture.
+- Use the final presentation feedback to improve the internship report and project documentation.
 
 ## Event Photos
 

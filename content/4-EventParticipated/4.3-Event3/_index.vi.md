@@ -1,4 +1,4 @@
-﻿---
+---
 title: "FCAJ Community Day - Cloud, Security, DevOps and Teamwork"
 date: 2024-01-01
 weight: 3
@@ -56,9 +56,9 @@ Phần Neptune giúp em hiểu vì sao graph database hữu ích khi dữ liệu
 
 Phần chia sẻ career cho thấy chuyển sang cloud và DevOps cần sự kiên trì. Nền tảng tốt về system, networking, Linux, automation và tinh thần tự học có thể giúp một người đi từ support role lên các vị trí kỹ thuật cao hơn.
 
-## C?m nh?n c� nh�n
+## Cảm nhận cá nhân
 
-S? ki?n n�y h?u �ch v� k?t h?p du?c c? chi?u s�u k? thu?t v� k? nang m?m. Em d?c bi?t th�ch ph?n WebSockets v� Docker v� ch�ng li�n quan d?n deployment v� realtime systems, kh� g?n v?i hu?ng h?c game v� cloud c?a em.
+Sự kiện này hữu ích vì kết hợp được cả chiều sâu kỹ thuật và kỹ năng mềm. Em đặc biệt thích phần WebSockets và Docker vì chúng liên quan đến deployment và realtime systems, khá gần với hướng học game và cloud của em.
 
 Sự kiện cũng giúp em thấy rằng cloud engineering không chỉ là biết tên dịch vụ AWS. Nó còn yêu cầu hiểu security, automation, data modeling, communication và career planning. Sau buổi này, em có thêm động lực sắp xếp roadmap học tập theo các project thực tế thay vì học từng chủ đề rời rạc.
 
@@ -68,7 +68,7 @@ Sự kiện cũng giúp em thấy rằng cloud engineering không chỉ là bi�
 - Tìm hiểu AWS WAF rules, logging và cách traffic data hỗ trợ threat detection.
 - Khám phá kiến trúc WebSocket cho realtime multiplayer hoặc chat system.
 - Học thêm về Amazon Neptune và cách graph relationship cải thiện knowledge retrieval.
-- �p d?ng nguy�n t?c teamwork v�o project nh�m, d?c bi?t l� ph�n chia tr�ch nhi?m v� giao ti?p r� r�ng hon.
+- Áp dụng nguyên tắc teamwork vào project nhóm, đặc biệt là phân chia trách nhiệm và giao tiếp rõ ràng hơn.
 
 ## Hình ảnh sự kiện
 
