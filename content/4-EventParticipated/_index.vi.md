@@ -62,12 +62,12 @@ Một buổi community day tập trung vào AI agents, voice AI, Amazon Q, DevOp
 
 ---
 
-### Event 5: Final Presentation - RoughLife Online Multiplayer Platform
+### Event 5: FCAJ x AABW Project Sharing Day
 
 &emsp;**Thời gian:** 25/07/2026  
 &emsp;**Địa điểm:** Tầng 36, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
-&emsp;**Vai trò:** Người thuyết trình  
+&emsp;**Vai trò:** Người tham dự  
 
-Buổi thuyết trình cuối kỳ chia sẻ dự án RoughLife Online Multiplayer Platform, bao gồm ý tưởng game, phần triển khai Unity, kiến trúc AWS, luồng demo và những bài học rút ra trong quá trình thực tập.
+Buổi chia sẻ dự án FCAJ x AABW về Agentic AI Build Week, hackathon journey, AI-assisted solution architecture, SignalScout, kiến trúc AWS, demo, cost planning, teamwork và bài học khi xây dựng MVP trong thời gian ngắn.
 
 [Xem chi tiết Event 5](4.5-Event5/)

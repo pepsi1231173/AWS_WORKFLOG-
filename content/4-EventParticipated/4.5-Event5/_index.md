@@ -1,73 +1,89 @@
 ---
-title: "Final Presentation - RoughLife Online Multiplayer Platform"
+title: "FCAJ x AABW Project Sharing Day"
 date: 2024-01-01
 weight: 5
 chapter: false
 pre: " <b> 4.5. </b> "
 ---
 
-# Final Presentation - RoughLife Online Multiplayer Platform
+# FCAJ x AABW Project Sharing Day
 
 ## Event Information
 
-**Event name:** Final Presentation - RoughLife Online Multiplayer Platform  
+**Event name:** FCAJ x AABW Project Sharing Day  
 **Date:** July 25, 2026  
 **Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-**Role:** Presenter  
+**Role:** Attendee
 
 ## Overview
 
-This event was the final presentation session for my internship project, RoughLife Online Multiplayer Platform. The presentation gave me the chance to summarize the project idea, explain the main game features, demonstrate the development progress, and connect the Unity implementation with the AWS services used in the proposed architecture.
+This FCAJ x AABW event was a project sharing day where teams presented what they built, learned, and experienced during Agentic AI Build Week. The sessions were not only about final products; they also showed the process behind each idea, including problem discovery, architecture design, MVP implementation, demo preparation, and lessons learned from building under time pressure.
 
-The session focused on how the project evolved during the internship: from learning AWS fundamentals and completing labs, to designing the RoughLife gameplay flow, building UI screens, preparing the 2D top-down map, setting up colliders, designing the lobby and room flow, and planning the backend architecture for online multiplayer.
+The event helped me understand how AI and AWS services can be used to turn practical problems into working prototypes. Through the presentations, I saw how teams combined computer vision, agentic AI, dashboards, cloud architecture, cost estimation, and business analysis into projects that could support real users.
 
-## Presentation Objectives
+## Event Objectives
 
-- Introduce the RoughLife game idea and the main gameplay direction.
-- Present the gameplay flow, player UI, map setup, lobby UI, and online room flow.
-- Explain how Unity NGO and UTP can support multiplayer gameplay.
-- Explain why AWS services are suitable for authentication, room APIs, hosting, monitoring, and deployment.
-- Summarize the internship progress, project results, and remaining improvements.
+- Learn how teams transform ideas into MVPs during a short build week.
+- Understand how agentic AI can support monitoring, analysis, architecture drafting, and decision support.
+- Observe how AWS services are selected for real projects, including AI, compute, storage, security, hosting, and observability.
+- Learn how presenters explain a project through problem statements, architecture, demo flow, impact, and future improvements.
+- Collect practical lessons for my own internship project and final report.
 
 ## Main Sessions
 
-### Project Introduction
+### Hackathon Journey - Team 3KA
 
-I introduced RoughLife as a 2D top-down action-adventure game. The project focuses on player movement, weapon usage, monster combat, boss rooms, scene transitions, and future online co-op multiplayer support. This helped the audience understand the game concept before moving into the technical architecture.
+Team 3KA shared their hackathon journey from signing up, choosing a track, building under pressure, preparing the demo, and reflecting on the lessons learned. Their project, S.H.E.P.H.E.R.D., focused on smart human-flow evaluation, prediction, hazard detection, response, and dispatch.
 
-### Game UI and Gameplay Demo
+The team explained how the system analyzes live camera footage to detect and track people, measure crowd density, estimate queue conditions, identify early congestion, create proactive alerts, and recommend staff actions. The proposed solution used technologies such as YOLO, ByteTrack, Amazon SageMaker, Amazon Bedrock AgentCore, Strands Agent, and a React monitoring dashboard.
 
-I presented the main UI screens and gameplay flow: the main menu, online/offline options, lobby screen, room entry panel, player health UI, avatar display, weapon slot, weapon information panel, 2D map layout, collider setup, and boss battle interaction.
+### Solution Architect Professional Native App
 
-### Multiplayer and AWS Architecture
+This session presented an AI native application designed to help Solution Architects work faster from early customer requirements. The idea was to analyze natural language and structured project requirements, draft high-level architecture options, generate editable Draw.io and AWS architecture diagrams, estimate AWS costs for the ap-southeast-1 region, and surface assumptions or missing requirements for follow-up.
 
-The architecture section explained how Unity Netcode for GameObjects and Unity Transport can be combined with AWS services. Amazon Cognito supports player authentication, DynamoDB stores room and player state, Lambda and API Gateway provide room management APIs, Amazon GameLift supports dedicated game hosting, S3 and CloudFront support release distribution, and CloudWatch/SNS support monitoring and alerting.
+The part I found useful was the before-and-after comparison. Without the tool, architects have to read documents manually, start from a blank page, create diagrams by hand, and estimate costs based mainly on experience. With the AI native app, a team can get a grounded first draft, a requirements catalogue, generated architecture diagrams, Infrastructure as Code direction, and a cost estimate to review and improve.
 
-### Internship Progress and Evidence
+### SignalScout
 
-The presentation also summarized the internship worklog, AWS labs, workshop documentation, event participation, website deployment, and project evidence. This part showed how the project was built step by step instead of only showing the final result.
+SignalScout was introduced as a decision-support platform for detecting corporate strategic changes early. The project connected scattered public and operational signals into clearer analysis so business teams could make Maintain, Adapt, or Accelerate decisions with supporting evidence.
+
+The presentation used a value creation and delivery canvas to explain partners, activities, resources, value propositions, channels, customer segments, and analysis outputs. It also showed an AWS-based architecture and cost planning for services such as Amazon Bedrock, AgentCore, WAF, Amplify Hosting, CloudWatch, Secrets Manager, DynamoDB, Lambda, Route 53, CloudTrail, S3, API Gateway, and Cognito.
+
+### Community Sharing and Demo Flow
+
+The event included project demonstrations and Q&A sessions. The teams explained not only what their systems could do, but also the challenges they faced: limited time, unfamiliar AWS services, latency, tracking reliability, cost estimation, unclear requirements, teamwork pressure, and the need to keep demos simple enough to finish.
 
 ## Key Takeaways
 
-- A multiplayer game project needs both gameplay design and backend architecture planning.
-- Unity is responsible for the player-facing experience, while AWS services support identity, data, APIs, hosting, monitoring, and deployment.
-- A complex cloud architecture becomes easier to explain when it is divided into smaller modules such as authentication, room management, hosting, and operations.
-- A final presentation is not only a demo; it is also a way to prove progress through documentation, screenshots, architecture diagrams, and reflection.
-- Feedback from the presentation helped me see which parts of the project should be improved next.
+### Building Under Time Pressure
+
+The hackathon sharing showed that a small finished feature is better than a large unfinished idea. Teams need to define a clear goal, prepare a starter toolkit, assign roles early, and rehearse the demo story before presenting.
+
+### Agentic AI in Real Projects
+
+The projects showed that AI agents become useful when they have clear responsibilities. In S.H.E.P.H.E.R.D., the agentic layer helped monitor live metrics and create proactive alerts. In the Solution Architect app, AI helped convert requirements into architecture drafts, diagrams, assumptions, and cost estimates.
+
+### Architecture and Cost Awareness
+
+The presentations reminded me that building with AWS is not only about choosing services. A team also needs to think about architecture diagrams, security, monitoring, cost ranges, data flow, and what should be automated versus reviewed by humans.
+
+### Demo and Communication Skills
+
+A technical demo needs a simple story. The most effective presentations started from a real problem, explained why it matters, showed the solution architecture, then demonstrated what the prototype could already do.
 
 ## Personal Reflection
 
-This final presentation was meaningful because it brought together everything I had worked on during the internship. Instead of only listing completed tasks, I needed to explain the reason behind the project, how the game flow works, why each AWS service is used, and how the different parts connect into one system.
+This event was useful for my internship because it showed me how other teams explain technical work clearly. I learned that a good project presentation should not only show screens or architecture diagrams, but also explain the problem, users, assumptions, limitations, and next steps.
 
-Through this event, I became more confident in presenting technical work and organizing evidence clearly. It also helped me identify the next improvements for RoughLife, including polishing the gameplay demo, improving the online room flow, strengthening the multiplayer backend, and continuing to refine the cloud deployment plan.
+The Hackathon Journey session also helped me feel more confident about building prototypes. Even when teams face technical problems, unclear roles, or time pressure, they can still produce meaningful results if the scope is controlled and the demo focuses on the most important value.
 
 ## Practical Applications
 
-- Continue improving the RoughLife gameplay demo and UI flow.
-- Refine the lobby and room management logic for online multiplayer.
-- Connect the Unity client more clearly with backend APIs.
-- Improve monitoring, logging, and deployment planning for the AWS architecture.
-- Use the final presentation feedback to improve the internship report and project documentation.
+- Apply a clearer problem-solution-impact structure when presenting my RoughLife project.
+- Keep my own project scope realistic and focus on a demo that works.
+- Improve architecture documentation by including assumptions, service responsibilities, and cost considerations.
+- Study more about Amazon Bedrock, AgentCore, SageMaker, Lambda, DynamoDB, CloudWatch, and API Gateway.
+- Use the event lessons to improve the way I prepare slides, demos, and technical explanations.
 
 ## Event Photos
 

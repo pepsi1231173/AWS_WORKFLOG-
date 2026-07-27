@@ -1,73 +1,89 @@
 ---
-title: "Final Presentation - RoughLife Online Multiplayer Platform"
+title: "FCAJ x AABW Project Sharing Day"
 date: 2024-01-01
 weight: 5
 chapter: false
 pre: " <b> 4.5. </b> "
 ---
 
-# Final Presentation - RoughLife Online Multiplayer Platform
+# FCAJ x AABW Project Sharing Day
 
 ## Thông tin sự kiện
 
-**Tên sự kiện:** Final Presentation - RoughLife Online Multiplayer Platform  
+**Tên sự kiện:** FCAJ x AABW Project Sharing Day  
 **Thời gian:** 25/07/2026  
-**Địa điểm:** Tầng 36, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
-**Vai trò:** Người thuyết trình  
+**Địa điểm:** Tầng 36, Bitexco Tower, 02 Hai Triệu, Phường Sài Gòn, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự
 
 ## Tổng quan
 
-Đây là buổi thuyết trình cuối kỳ cho dự án thực tập RoughLife Online Multiplayer Platform. Buổi thuyết trình giúp em tổng kết ý tưởng dự án, giải thích các tính năng chính của game, trình bày tiến độ phát triển và liên kết phần triển khai Unity với các dịch vụ AWS trong kiến trúc đề xuất.
+Đây là buổi chia sẻ dự án FCAJ x AABW, nơi các nhóm trình bày những gì đã xây dựng, đã học và đã trải nghiệm trong quá trình tham gia Agentic AI Build Week. Nội dung không chỉ tập trung vào sản phẩm cuối cùng, mà còn thể hiện quá trình hình thành ý tưởng, xác định vấn đề, thiết kế kiến trúc, triển khai MVP, chuẩn bị demo và rút ra bài học sau khi xây dựng trong thời gian ngắn.
 
-Nội dung buổi trình bày tập trung vào quá trình dự án được hình thành trong kỳ thực tập: từ việc học nền tảng AWS và hoàn thành các bài lab, đến thiết kế gameplay cho RoughLife, xây dựng các màn hình UI, chuẩn bị map 2D top-down, setup collider, thiết kế lobby và room flow, sau đó lập kế hoạch backend architecture cho chế độ online multiplayer.
+Sự kiện giúp em hiểu rõ hơn cách AI và các dịch vụ AWS có thể được dùng để biến một vấn đề thực tế thành prototype có thể trình bày được. Qua các phần chia sẻ, em thấy được cách các nhóm kết hợp computer vision, agentic AI, dashboard, cloud architecture, cost estimation và business analysis vào những dự án có định hướng phục vụ người dùng thật.
 
-## Mục tiêu thuyết trình
+## Mục tiêu sự kiện
 
-- Giới thiệu ý tưởng game RoughLife và định hướng gameplay chính.
-- Trình bày gameplay flow, player UI, map setup, lobby UI và online room flow.
-- Giải thích cách Unity NGO và UTP có thể hỗ trợ multiplayer gameplay.
-- Giải thích lý do sử dụng AWS cho authentication, room APIs, hosting, monitoring và deployment.
-- Tổng kết tiến độ thực tập, kết quả dự án và các phần cần cải thiện tiếp theo.
+- Tìm hiểu cách các nhóm biến ý tưởng thành MVP trong thời gian build week ngắn.
+- Hiểu cách agentic AI hỗ trợ monitoring, phân tích, tạo bản nháp kiến trúc và ra quyết định.
+- Quan sát cách lựa chọn dịch vụ AWS cho các dự án thực tế, bao gồm AI, compute, storage, security, hosting và observability.
+- Học cách trình bày dự án thông qua problem statement, architecture, demo flow, impact và hướng cải thiện.
+- Rút kinh nghiệm để áp dụng vào dự án thực tập và báo cáo cuối kỳ của em.
 
 ## Nội dung chính
 
-### Giới thiệu dự án
+### Hackathon Journey - Team 3KA
 
-Em giới thiệu RoughLife là một game hành động phiêu lưu 2D góc nhìn từ trên xuống. Dự án tập trung vào player movement, sử dụng vũ khí, chiến đấu với quái, vào boss room, chuyển scene và định hướng hỗ trợ online co-op multiplayer trong tương lai.
+Team 3KA chia sẻ hành trình tham gia hackathon từ lúc đăng ký, chọn track, xây dựng sản phẩm trong áp lực thời gian, chuẩn bị demo, đến phần nhìn lại bài học sau sự kiện. Dự án của nhóm là S.H.E.P.H.E.R.D., tập trung vào smart human-flow evaluation, prediction, hazard detection, response và dispatch.
 
-### Game UI và gameplay demo
+Nhóm trình bày cách hệ thống phân tích video từ camera để phát hiện và theo dõi người, đo mật độ đám đông, ước lượng tình trạng hàng chờ, nhận diện dấu hiệu ùn tắc, tạo cảnh báo sớm và đề xuất hành động cho nhân sự vận hành. Giải pháp sử dụng các công nghệ như YOLO, ByteTrack, Amazon SageMaker, Amazon Bedrock AgentCore, Strands Agent và React monitoring dashboard.
 
-Em trình bày các màn hình và luồng chính của game: main menu, lựa chọn Online/Offline, lobby screen, room entry panel, player health UI, avatar display, weapon slot, weapon information panel, map 2D, collider setup và tương tác trong boss battle.
+### Solution Architect Professional Native App
 
-### Multiplayer và kiến trúc AWS
+Phần này giới thiệu một AI native application hỗ trợ Solution Architect xử lý yêu cầu khách hàng nhanh hơn. Ý tưởng chính là phân tích yêu cầu bằng ngôn ngữ tự nhiên hoặc tài liệu có cấu trúc, tạo bản nháp high-level architecture, sinh sơ đồ Draw.io và AWS architecture diagram, ước tính chi phí AWS cho khu vực ap-southeast-1, đồng thời chỉ ra assumptions và requirement gaps để tiếp tục trao đổi với khách hàng.
 
-Phần kiến trúc giải thích cách Unity Netcode for GameObjects và Unity Transport có thể kết hợp với các dịch vụ AWS. Amazon Cognito hỗ trợ xác thực người chơi, DynamoDB lưu room/player state, Lambda và API Gateway cung cấp room management APIs, Amazon GameLift hỗ trợ dedicated game hosting, S3 và CloudFront hỗ trợ phát hành bản build, còn CloudWatch/SNS hỗ trợ monitoring và alerting.
+Điểm em thấy hữu ích là phần so sánh trước và sau khi có công cụ. Nếu làm thủ công, kiến trúc sư phải đọc tài liệu yêu cầu từng dòng, bắt đầu từ trang trắng, tự vẽ sơ đồ và ước lượng chi phí dựa nhiều vào kinh nghiệm. Với AI native app, nhóm có thể tạo bản nháp có cơ sở, requirements catalogue, sơ đồ kiến trúc, định hướng Infrastructure as Code và cost estimate để review và cải thiện tiếp.
 
-### Tiến độ thực tập và minh chứng
+### SignalScout
 
-Buổi trình bày cũng tổng kết worklog thực tập, các bài lab AWS, tài liệu workshop, event participation, website báo cáo và minh chứng dự án. Phần này giúp thể hiện quá trình xây dựng dự án theo từng bước, không chỉ dừng lại ở kết quả cuối cùng.
+SignalScout được giới thiệu như một nền tảng hỗ trợ ra quyết định, dùng để phát hiện sớm các thay đổi chiến lược của doanh nghiệp. Dự án kết nối những tín hiệu rời rạc từ dữ liệu công khai và dữ liệu vận hành thành một câu chuyện phân tích rõ ràng hơn, giúp các nhóm business có cơ sở khi đưa ra quyết định Maintain, Adapt hoặc Accelerate.
+
+Phần trình bày sử dụng value creation and delivery canvas để giải thích key partners, key activities, key resources, value propositions, channels, customer segments và analysis outputs. Nhóm cũng trình bày kiến trúc AWS và kế hoạch chi phí cho các dịch vụ như Amazon Bedrock, AgentCore, WAF, Amplify Hosting, CloudWatch, Secrets Manager, DynamoDB, Lambda, Route 53, CloudTrail, S3, API Gateway và Cognito.
+
+### Community sharing và demo
+
+Sự kiện còn có các phần demo và Q&A. Các nhóm không chỉ trình bày hệ thống làm được gì, mà còn chia sẻ những khó khăn trong quá trình làm: thời gian hạn chế, lần đầu tiếp cận một số dịch vụ AWS, độ trễ khi xử lý, độ ổn định của tracking, bài toán chi phí, yêu cầu chưa rõ, áp lực teamwork và cách giữ demo đủ đơn giản để hoàn thành.
 
 ## Bài học rút ra
 
-- Một dự án game multiplayer cần kết hợp cả gameplay design và backend architecture planning.
-- Unity đảm nhiệm trải nghiệm phía người chơi, còn AWS hỗ trợ identity, data, APIs, hosting, monitoring và deployment.
-- Một kiến trúc cloud phức tạp sẽ dễ trình bày hơn khi được chia thành các module nhỏ như authentication, room management, hosting và operations.
-- Final presentation không chỉ là phần demo mà còn là cách chứng minh tiến độ thông qua tài liệu, hình ảnh, sơ đồ kiến trúc và phần tự đánh giá.
-- Phản hồi từ buổi thuyết trình giúp em nhìn rõ hơn các phần cần cải thiện tiếp theo của dự án.
+### Xây dựng sản phẩm trong áp lực thời gian
+
+Phần Hackathon Journey cho thấy một tính năng nhỏ nhưng hoàn thiện sẽ có giá trị hơn một ý tưởng lớn nhưng chưa chạy được. Nhóm cần xác định mục tiêu rõ ràng, chuẩn bị công cụ ban đầu, phân chia vai trò sớm và luyện trước câu chuyện demo.
+
+### Agentic AI trong dự án thực tế
+
+Các dự án cho thấy AI agents sẽ hữu ích hơn khi mỗi agent có trách nhiệm rõ ràng. Trong S.H.E.P.H.E.R.D., agentic layer hỗ trợ theo dõi live metrics và tạo cảnh báo chủ động. Trong Solution Architect app, AI hỗ trợ chuyển yêu cầu thành bản nháp kiến trúc, sơ đồ, assumptions và cost estimates.
+
+### Kiến trúc và chi phí
+
+Các phần trình bày nhắc em rằng xây dựng với AWS không chỉ là chọn dịch vụ. Nhóm còn cần quan tâm đến architecture diagram, security, monitoring, cost range, data flow và phần nào nên tự động hóa, phần nào cần con người review.
+
+### Kỹ năng demo và giao tiếp
+
+Một bài demo kỹ thuật cần có câu chuyện đơn giản. Các phần trình bày hiệu quả thường bắt đầu từ vấn đề thật, giải thích vì sao vấn đề quan trọng, trình bày kiến trúc giải pháp, sau đó demo phần prototype đã làm được.
 
 ## Cảm nhận cá nhân
 
-Buổi final presentation có ý nghĩa vì nó tổng hợp lại toàn bộ những phần em đã thực hiện trong kỳ thực tập. Thay vì chỉ liệt kê các công việc đã hoàn thành, em cần giải thích lý do chọn đề tài, cách game vận hành, vì sao sử dụng từng dịch vụ AWS và cách các phần trong hệ thống kết nối với nhau.
+Sự kiện này hữu ích cho kỳ thực tập của em vì em được quan sát cách các nhóm khác trình bày sản phẩm kỹ thuật một cách rõ ràng. Em học được rằng một bài thuyết trình dự án không chỉ cần ảnh chụp màn hình hoặc sơ đồ kiến trúc, mà còn cần giải thích vấn đề, người dùng, giả định, giới hạn và hướng phát triển tiếp theo.
 
-Thông qua buổi này, em tự tin hơn trong việc trình bày sản phẩm kỹ thuật và tổ chức minh chứng dự án. Đây cũng là checkpoint quan trọng để em xác định các hướng cải thiện tiếp theo cho RoughLife, bao gồm hoàn thiện gameplay demo, cải thiện online room flow, củng cố multiplayer backend và tiếp tục tinh chỉnh kế hoạch cloud deployment.
+Phần Hackathon Journey cũng giúp em tự tin hơn khi xây dựng prototype. Dù gặp vấn đề kỹ thuật, vai trò trong nhóm chưa rõ hoặc thời gian gấp, nhóm vẫn có thể tạo ra kết quả có ý nghĩa nếu biết kiểm soát phạm vi và tập trung demo vào giá trị quan trọng nhất.
 
 ## Ứng dụng thực tế
 
-- Tiếp tục cải thiện gameplay demo và UI flow của RoughLife.
-- Tinh chỉnh lobby và room management logic cho online multiplayer.
-- Kết nối Unity client rõ ràng hơn với backend APIs.
-- Cải thiện monitoring, logging và kế hoạch deployment cho kiến trúc AWS.
-- Sử dụng phản hồi từ final presentation để hoàn thiện báo cáo thực tập và tài liệu dự án.
+- Áp dụng cấu trúc problem-solution-impact rõ ràng hơn khi trình bày dự án RoughLife.
+- Giữ phạm vi dự án thực tế và tập trung vào demo có thể chạy được.
+- Cải thiện tài liệu kiến trúc bằng cách ghi rõ assumptions, trách nhiệm của từng dịch vụ và yếu tố chi phí.
+- Tìm hiểu thêm về Amazon Bedrock, AgentCore, SageMaker, Lambda, DynamoDB, CloudWatch và API Gateway.
+- Sử dụng các bài học từ sự kiện để chuẩn bị slide, demo và phần giải thích kỹ thuật tốt hơn.
 
 ## Hình ảnh sự kiện
 
