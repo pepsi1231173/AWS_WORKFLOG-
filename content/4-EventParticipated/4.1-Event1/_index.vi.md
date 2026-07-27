@@ -1,4 +1,4 @@
----
+﻿---
 title: "AWS Study Group Workshop - AI in Development"
 date: 2024-01-01
 weight: 1
@@ -17,23 +17,23 @@ pre: " <b> 4.1. </b> "
 
 ## Tổng quan
 
-Workshop giúp em hiểu rõ hơn cách AI đang thay đổi quá trình học tập, làm việc và phát triển phần mềm. Nội dung không chỉ dừng ở việc giới thiệu công cụ, mà còn kết nối AI-assisted development với thói quen học tập, chất lượng prompt, sự chuẩn bị nghề nghiệp và cách xây dựng sản phẩm hiện đại.
+Workshop gi�p em hi?u r� hon c�ch AI dang thay d?i qu� tr�nh h?c t?p, l�m vi?c v� ph�t tri?n ph?n m?m. N?i dung kh�ng ch? d?ng ? vi?c gi?i thi?u c�ng c?, m� c�n k?t n?i AI-assisted development v?i th�i quen h?c t?p, ch?t lu?ng prompt, s? chu?n b? ngh? nghi?p v� c�ch x�y d?ng s?n ph?m hi?n d?i.
 
-Điểm em thấy hữu ích nhất là sự cân bằng giữa tư duy và thực hành. Em nhận ra rằng dùng AI hiệu quả không phải là để công cụ làm thay mọi thứ, mà là biết đặt câu hỏi tốt hơn, cung cấp ngữ cảnh rõ hơn, kiểm tra kết quả cẩn thận hơn và biến AI thành một phần hợp lý trong workflow phát triển phần mềm.
+�i?m em th?y h?u �ch nh?t l� s? c�n b?ng gi?a tu duy v� th?c h�nh. Em nh?n ra r?ng d�ng AI hi?u qu? kh�ng ph?i l� d? c�ng c? l�m thay m?i th?, m� l� bi?t d?t c�u h?i t?t hon, cung c?p ng? c?nh r� hon, ki?m tra k?t qu? c?n th?n hon v� bi?n AI th�nh m?t ph?n h?p l� trong workflow ph�t tri?n ph?n m?m.
 
 ## Mục tiêu sự kiện
 
 - Hiểu cách AI hỗ trợ vòng đời phát triển phần mềm, từ lên ý tưởng, viết code, tạo tài liệu đến cải tiến sản phẩm.
 - Học cách tiếp cận prompt engineering và cải thiện chất lượng đầu ra của LLM.
-- Xây dựng thói quen học tập bền vững để quá trình phát triển kỹ năng không bị rời rạc.
+- X�y d?ng th�i quen h?c t?p b?n v?ng d? qu� tr�nh ph�t tri?n k? nang kh�ng b? r?i r?c.
 - Nhìn lại khoảng cách giữa việc học công nghệ và sự sẵn sàng cho công việc thực tế.
-- Hiểu cách các nhóm hiện đại xây dựng, đo lường, phân tích và triển khai sản phẩm theo hướng lặp.
+- Hi?u c�ch c�c nh�m hi?n d?i x�y d?ng, do lu?ng, ph�n t�ch v� tri?n khai s?n ph?m theo hu?ng l?p.
 
 ## Diễn giả và nội dung chia sẻ
 
-- **Anh Long:** Chia sẻ cách làm cho việc học trở nên hấp dẫn và duy trì đều đặn hơn, đặc biệt với người học dễ bị phân tán bởi mạng xã hội.
+- **Anh Long:** Chia s? c�ch l�m cho vi?c h?c tr? n�n h?p d?n v� duy tr� d?u d?n hon, d?c bi?t v?i ngu?i h?c d? b? ph�n t�n b?i m?ng x� h?i.
 - **Anh Thịnh:** Giới thiệu automated prompt engineering và cách prompt tốt hơn có thể cải thiện chất lượng nội dung do AI tạo ra.
-- **Anh Khang:** Chia sẻ về sự sẵn sàng đi làm, lý do nhiều bạn học mãi nhưng chưa bắt đầu công việc thực tế, và những điều cần chuẩn bị trước khi ứng tuyển.
+- **Anh Khang:** Chia s? v? s? s?n s�ng di l�m, l� do nhi?u b?n h?c m�i nhung chua b?t d?u c�ng vi?c th?c t?, v� nh?ng di?u c?n chu?n b? tru?c khi ?ng tuy?n.
 - **Diễn giả Software Developer:** Chia sẻ tư duy BMAD gồm Build, Measure, Analyze và Deploy như một vòng lặp thực tế trong phát triển phần mềm.
 
 ## Những điều học được
@@ -52,13 +52,13 @@ Phần chia sẻ về career readiness nhắc em rằng kiến thức kỹ thu�
 
 ### Quy trình phát triển hiện đại
 
-Vòng lặp BMAD giúp em nhìn phát triển sản phẩm như một quá trình cải tiến liên tục. Thay vì cố gắng hoàn hảo ngay từ đầu, nên xây dựng phiên bản nhỏ, đo kết quả, phân tích phản hồi và cải thiện từng bước.
+V�ng l?p BMAD gi�p em nh�n ph�t tri?n s?n ph?m nhu m?t qu� tr�nh c?i ti?n li�n t?c. Thay v� c? g?ng ho�n h?o ngay t? d?u, n�n x�y d?ng phi�n b?n nh?, do k?t qu?, ph�n t�ch ph?n h?i v� c?i thi?n t?ng bu?c.
 
-## Cảm nhận cá nhân
+## C?m nh?n c� nh�n
 
-Sự kiện này có giá trị vì liên quan trực tiếp đến hành trình thực tập của em. Em đang học AWS, viết báo cáo, xây dựng workshop và sử dụng AI tools cùng lúc, nên các phần chia sẻ giúp em tổ chức những việc đó có mục tiêu hơn.
+S? ki?n n�y c� gi� tr? v� li�n quan tr?c ti?p d?n h�nh tr�nh th?c t?p c?a em. Em dang h?c AWS, vi?t b�o c�o, x�y d?ng workshop v� s? d?ng AI tools c�ng l�c, n�n c�c ph?n chia s? gi�p em t? ch?c nh?ng vi?c d� c� m?c ti�u hon.
 
-Bài học lớn nhất với em là AI nên được xem như một cộng sự, không phải một lối tắt. AI có thể tăng tốc quá trình suy nghĩ và thực hiện, nhưng em vẫn cần hiểu vấn đề, kiểm chứng câu trả lời và đưa ra quyết định có trách nhiệm. Sau workshop, em chú ý hơn đến cách viết prompt, cách ghi chép kiến thức và cách biến những nhiệm vụ nhỏ hằng ngày thành tiến bộ dài hạn.
+B�i h?c l?n nh?t v?i em l� AI n�n du?c xem nhu m?t c?ng s?, kh�ng ph?i m?t l?i t?t. AI c� th? tang t?c qu� tr�nh suy nghi v� th?c hi?n, nhung em v?n c?n hi?u v?n d?, ki?m ch?ng c�u tr? l?i v� dua ra quy?t d?nh c� tr�ch nhi?m. Sau workshop, em ch� � hon d?n c�ch vi?t prompt, c�ch ghi ch�p ki?n th?c v� c�ch bi?n nh?ng nhi?m v? nh? h?ng ng�y th�nh ti?n b? d�i h?n.
 
 ## Giá trị kết nối cộng đồng
 

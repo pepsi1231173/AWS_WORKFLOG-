@@ -1,16 +1,16 @@
----
-title: "Các events đã tham gia"
+﻿---
+title: "C�c events d� tham gia"
 date: 2024-01-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-# Các events đã tham gia
+# C�c events d� tham gia
 
-Trong thời gian thực tập, em đã tham gia nhiều sự kiện của AWS Study Group và cộng đồng FCAJ. Những buổi này giúp em kết nối kiến thức học được với các chia sẻ thực tế từ cộng đồng: AI-assisted development, cloud delivery, security, DevOps automation, teamwork và bảo mật cho hệ thống AI trong doanh nghiệp.
+Trong th?i gian th?c t?p, em d� tham gia nhi?u s? ki?n c?a AWS Study Group v� c?ng d?ng FCAJ. Nh?ng bu?i n�y gi�p em k?t n?i ki?n th?c h?c du?c v?i c�c chia s? th?c t? t? c?ng d?ng: AI-assisted development, cloud delivery, security, DevOps automation, teamwork v� b?o m?t cho h? th?ng AI trong doanh nghi?p.
 
-Mỗi sự kiện mang lại một giá trị khác nhau. Có buổi giúp em nhìn lại thói quen học tập và định hướng nghề nghiệp, có buổi đi sâu vào kiến trúc kỹ thuật, và có buổi giúp em hiểu rõ hơn cách các anh chị trong cộng đồng trình bày ý tưởng, xây dựng sản phẩm và phát triển trong lĩnh vực cloud.
+M?i s? ki?n mang l?i m?t gi� tr? kh�c nhau. C� bu?i gi�p em nh�n l?i th�i quen h?c t?p v� d?nh hu?ng ngh? nghi?p, c� bu?i di s�u v�o ki?n tr�c k? thu?t, v� c� bu?i gi�p em hi?u r� hon c�ch c�c anh ch? trong c?ng d?ng tr�nh b�y � tu?ng, x�y d?ng s?n ph?m v� ph�t tri?n trong linh v?c cloud.
 
 ## Danh sách sự kiện
 
@@ -32,7 +32,7 @@ Workshop chia sẻ về thói quen học tập, prompt engineering, sự chuẩn
 &emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 &emsp;**Vai trò:** Người tham dự  
 
-Một buổi chia sẻ cộng đồng với các chủ đề về second brain, Amazon Q, CloudFront, xây dựng sản phẩm trong hackathon, nền tảng hoạt động của LLM và enterprise multi-agent systems.
+M?t bu?i chia s? c?ng d?ng v?i c�c ch? d? v? second brain, Amazon Q, CloudFront, x�y d?ng s?n ph?m trong hackathon, n?n t?ng ho?t d?ng c?a LLM v� enterprise multi-agent systems.
 
 [Xem chi tiết Event 2](4.2-Event2/)
 
@@ -56,6 +56,18 @@ Một buổi chia sẻ cộng đồng về Docker, AWS WAF kết hợp machine l
 &emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 &emsp;**Vai trò:** Người tham dự  
 
-Một buổi community day tập trung vào AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture và các câu chuyện phát triển nghề nghiệp trong lĩnh vực cloud.
+M?t bu?i community day t?p trung v�o AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture v� c�c c�u chuy?n ph�t tri?n ngh? nghi?p trong linh v?c cloud.
 
 [Xem chi tiết Event 4](4.4-Event4/)
+
+---
+
+### Event 5: Final Presentation - RoughLife Online Multiplayer Platform
+
+&emsp;**Thời gian:** 25/07/2026  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
+&emsp;**Vai trò:** Người thuyết trình  
+
+Buổi thuyết trình cuối kỳ giới thiệu dự án RoughLife Online Multiplayer Platform, tổng kết kết quả thực tập, trình bày luồng hoạt động của game và các dịch vụ AWS được sử dụng trong kiến trúc hệ thống.
+
+[Xem chi tiết Event 5](4.5-Event5/)

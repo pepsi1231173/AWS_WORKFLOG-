@@ -59,3 +59,15 @@ A community sharing day about Docker, AWS WAF with machine learning, AWS WebSock
 A technical community day focused on AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture, and practical career stories from cloud practitioners.
 
 [Open Event 4](4.4-Event4/)
+
+---
+
+### Event 5: Final Presentation - RoughLife Online Multiplayer Platform
+
+&emsp;**Date:** July 25, 2026  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Role:** Presenter  
+
+A final presentation session where I introduced the RoughLife Online Multiplayer Platform, summarized the internship result, demonstrated the project flow, and shared the AWS services used in the system architecture.
+
+[Open Event 5](4.5-Event5/)
